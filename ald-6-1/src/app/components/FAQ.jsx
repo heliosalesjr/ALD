@@ -14,18 +14,18 @@ function FAQ() {
   const faqs = [
     {
       id: 1,
-      title: "What is Material Tailwind?",
-      content: "Material Tailwind is a framework for building web applications...",
+      title: "Livro do Estudante",
+      content: "Traz conteúdos do currículo de Matemática ancorados em conceitos de Educação Financeira contextualizados em situações cotidianas vividas pelos estudantes. O professor de matemática também pode convidar educadores de outros componentes curriculares, como Português, Ciências, Geografia, entre outros, para trabalhar de forma interdisciplinar.",
     },
     {
       id: 2,
-      title: "How to use Material Tailwind?",
-      content: "Using Material Tailwind is easy. You can include it in your project...",
+      title: "Caderno do Educador",
+      content: "Contém orientações e ideias para que o educador permita aos jovens trabalhar os conceitos de Educação Financeira ancorados na Matemática e, com a realização de pequenos projetos, desenvolver parte das competências socioemocionais previstas na BNCC. A proposta deste caderno é a implementação do conteúdo pelo educador mediante o emprego de metodologias ativas, em uma sequência de quatro atividades significativas, de acordo com a divisão do Livro do Estudante.",
     },
     {
       id: 3,
-      title: "What can I do with Material Tailwind?",
-      content: "With Material Tailwind, you can create modern and responsive web applications...",
+      title: "Camada Digital",
+      content: "Camada Digital é o ambiente online estruturado dentro do Google Classroom. Nele, você encontrará material de apoio referente à formação e à aplicação do programa. Destacamos que dentro deste material há quatro sites criados para a facilitação da aplicação do programa com sua turma. Neste ambiente, também é possível entrar em contato com o gestor responsável pelas formações.",
     },
   ];
 

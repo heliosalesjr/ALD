@@ -3,13 +3,14 @@ import React from 'react';
 
 const HeroSection = () => {
   return (
-    <div className="bg-blue-500 h-screen flex items-center justify-center text-white">
+    <div className="bg-gradient-to-b from-blue-800 to-green-500 mx-auto max-w-screen-xl h-screen flex items-center justify-center text-white">
       <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Bem-vindo à Minha Página</h1>
-        <p className="text-lg">Uma descrição incrível do que oferecemos.</p>
-        <button className="bg-white text-blue-500 hover:bg-blue-200 hover:text-white px-6 py-2 rounded-full mt-6">
-          Saiba Mais
-        </button>
+      <h1 className="text-5xl font-bold text-white">Aprendendo a Lidar com Dinheiro</h1>
+          <p className="py-6 text-white">Olá, professor e professora! Seja bem-vindo e bem-vinda ao site de apoio da coleção Aprendendo a Lidar com Dinheiro: Educação Financeira. Nesta seção, há informações sobre o que são os sites “Aprendendo a Lidar com Dinheiro” e como estão organizados, facilitando a navegação e consulta. Vamos conhecê-los?
+</p>
+          <button className="btn px-8 text-bold btn-primary">
+          ↓
+          </button>
       </div>
     </div>
   );
