@@ -1,12 +1,13 @@
 
 import MyNav from '../components/MyNav'
 import Footer from '../components/Footer'
+import EtaPPDA from '../components/Etapas/EtaPPDA'
 
 function Etapas() {
   return (
     <>
         <MyNav />
-        <h1>Aqui!</h1>
+        <EtaPPDA />
         <Footer />
     
     </>
