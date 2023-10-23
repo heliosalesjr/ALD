@@ -1,4 +1,5 @@
 'use client'
+//DaisyUI
 import React from 'react';
 
 const HeroSection = () => {

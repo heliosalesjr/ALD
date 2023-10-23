@@ -2,7 +2,7 @@
 import MyNav from '../components/MyNav'
 import Footer from '../components/Footer'
 
-function Etapas() {
+function Atividades() {
   return (
     <>
         <MyNav />
@@ -14,4 +14,4 @@ function Etapas() {
   )
 }
 
-export default Etapas
+export default Atividades

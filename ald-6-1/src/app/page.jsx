@@ -9,6 +9,9 @@ import HeroSection from "./components/HeroSection"
 import MyNav from "./components/MyNav"
 import SectionHalf from "./components/SectionHalf"
 import SectionOne from "./components/SectionOne"
+import EtaDropDown from './components/Etapas/EtaDropDown'
+import FAQDaisy from './components/FAQDaisy'
+
 
 export default function Home() {
   return (
@@ -19,8 +22,10 @@ export default function Home() {
       <CardList />
       <SectionHalf />
       <FeatureSection />
-      <FAQ />
+      
+      <FAQDaisy />
       <CarouselHere />
+      
       <Footer />
     </>
   )
