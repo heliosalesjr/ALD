@@ -5,34 +5,42 @@ import {Card, CardBody, CardFooter, Image, Popover, PopoverTrigger, PopoverConte
 export default function App() {
   const list = [
     {
-      title: "Orange",
+      title: "Diagnóstico",
       img: "/images/books.png",
-      price: "$5.50",
+      popTitle: 'Diagnóstico',
+      popContent: 'Compreende os itens: 1. Turma, 2. Duração do projeto, 3. Tema, 4. Perfil da Turma, 5. Fator de Mobilização do PPDA. ',
+      
     },
     {
-      title: "Tangerine",
+      title: "Conteúdos e Habilidades",
       img: "/images/doguin.png",
-      price: "$3.00",
+      popTitle: 'Conteúdos e Habilidades',
+      popContent: 'Compreende o item 6. Habilidades específicas da BNCC do PPDA.',
+      
     },
     {
-      title: "Raspberry",
+      title: "Planejamento",
       img: "/images/howmuch.png",
-      price: "$10.00",
+      popTitle: 'Planejamento',
+      popContent: 'Compreende o item 9. Apresentação e finalização do PPDA.',
     },
     {
-      title: "Lemon",
+      title: "Atividades",
       img: "/images/learns.jpg",
-      price: "$5.30",
+      popTitle: 'Atividades',
+      popContent: 'Compreende o item 7. Atividades do PPDA.',
     },
     {
-      title: "Avocado",
+      title: "Avaliação",
       img: "/images/postit.png",
-      price: "$15.70",
+      popTitle: 'Avaliação',
+      popContent: 'Compreende o item 8. Avaliação do PPDA.',
     },
     {
-      title: "Lemon 2",
+      title: "Culminância",
       img: "/images/books.png",
-      price: "$8.00",
+      popTitle: 'Culminância',
+      popContent: 'Compreende o item 10. Culminância-Celebração do PPDA.',
     },
     
   ];
@@ -55,15 +63,15 @@ export default function App() {
                 </PopoverTrigger>
                 <PopoverContent>
                     <div className="px-1 py-2">
-                    <div className="text-small font-bold">Popover Content</div>
-                    <div className="text-tiny">This is the popover content</div>
+                    <div className="text-small font-bold">{item.popTitle}</div>
+                    <div className="text-tiny">{item.popContent}</div>
                     </div>
                 </PopoverContent>
             </Popover>
             </CardBody>
           <CardFooter className="text-small justify-between">
             <b>{item.title}</b>
-            <p className="text-default-500">{item.price}</p>
+            
           </CardFooter>
         </Card>
       ))}

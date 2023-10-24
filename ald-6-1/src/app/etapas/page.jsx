@@ -5,6 +5,7 @@ import EtaPPDA from '../components/Etapas/EtaPPDA'
 import EtaEtapas from '../components/Etapas/EtaEtapas'
 import EtaDropDown from '../components/Etapas/EtaDropDown'
 import EtaItens from '../components/Etapas/EtaItens'
+import EtaOrg from '../components/Etapas/EtaOrg'
 
 function Etapas() {
   return (
@@ -14,8 +15,9 @@ function Etapas() {
         <EtaEtapas />
         <EtaDropDown />
         <EtaItens />
+        <EtaOrg />
         <Footer />
-    
+
     </>
     
   )

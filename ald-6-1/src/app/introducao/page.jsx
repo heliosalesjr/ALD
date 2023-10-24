@@ -1,12 +1,13 @@
-
+'use client'
 import MyNav from '../components/MyNav'
 import Footer from '../components/Footer'
+import IntroTabela from '../components/Introducao/IntroTabela'
 
-function Etapas() {
+function Introcucao() {
   return (
     <>
         <MyNav />
-        <h1>Aqui!</h1>
+          <IntroTabela />
         <Footer />
     
     </>
@@ -14,4 +15,4 @@ function Etapas() {
   )
 }
 
-export default Etapas
+export default Introcucao
