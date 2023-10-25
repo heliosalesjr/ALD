@@ -12,8 +12,8 @@ function Footer() {
               <Image
                 src="/images/logo-white.png" // Caminho relativo à pasta 'public'
                 alt="Logo BEĨ"
-                width={70} // Largura desejada
-                height={70}
+                width={60} // Largura desejada
+                height={60}
               />
               <p className='py-4 text-white'>CONTEÚDO COM PROPÓSITO<br/>2023 © Todos os direitos reservados</p>
             </div>
