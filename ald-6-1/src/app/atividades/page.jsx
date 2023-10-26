@@ -12,6 +12,7 @@ function Atividades() {
     <>
         <MyNav />
         <AtiDiagnostico />
+        <AtiFerramentas />
         <AtiDiagnostico2 />
         <AtiSugestao />
         <AtiBotaoNext />

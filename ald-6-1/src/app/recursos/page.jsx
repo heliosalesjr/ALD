@@ -1,12 +1,17 @@
 
 import MyNav from '../components/MyNav'
 import Footer from '../components/Footer'
+import RecLembre from '../components/Recursos/RecLembre'
+import RecGoogle from '../components/Recursos/RecGoogle'
+import RecInfografico from '../components/Recursos/RecInfografico'
 
-function Matematica() {
+function Recursos() {
   return (
     <>
         <MyNav />
-        <h1>Aqui!</h1>
+        <RecGoogle/>
+        <RecLembre/>
+        <RecInfografico/>
         <Footer />
     
     </>
@@ -14,4 +19,4 @@ function Matematica() {
   )
 }
 
-export default Matematica
+export default Recursos
