@@ -46,29 +46,39 @@ const columns = [
 
 export default function EtaOrg() {
   return (
-    <div className="flex justify-center">
-      <div style={{ maxWidth: "1000px", width: "100%" }}>
-        <Table aria-label="Example table with dynamic content">
-          <TableHeader columns={columns}>
-            {(column) => (
-              <TableColumn key={column.key} className="font-bold text-lg">
-                {column.label}
-              </TableColumn>
-            )}
-          </TableHeader>
-          <TableBody items={rows}>
-            {(item) => (
-              <TableRow key={item.key}>
-                {(columnKey) => (
-                  <TableCell className={columnKey === "status" ? "w-2/3" : ""}>
-                    {getKeyValue(item, columnKey)}
-                  </TableCell>
-                )}
-              </TableRow>
-            )}
-          </TableBody>
-        </Table>
+
+    <>
+      <div>
+        <h1>Como este material está organizado dentro dos sites</h1>
+        <p>Para auxiliar na visualização da divisão das ações, criamos a tabela abaixo que organiza o conteúdo de cada site em relação às etapas de elaboração de um PPDA.  </p>
       </div>
-    </div>
+      <div className="flex justify-center">
+        <div style={{ maxWidth: "1000px", width: "100%" }}>
+          <Table aria-label="Example table with dynamic content">
+            <TableHeader columns={columns}>
+              {(column) => (
+                <TableColumn key={column.key} className="font-bold text-lg">
+                  {column.label}
+                </TableColumn>
+              )}
+            </TableHeader>
+            <TableBody items={rows}>
+              {(item) => (
+                <TableRow key={item.key}>
+                  {(columnKey) => (
+                    <TableCell className={columnKey === "status" ? "w-2/3" : ""}>
+                      {getKeyValue(item, columnKey)}
+                    </TableCell>
+                  )}
+                </TableRow>
+              )}
+            </TableBody>
+          </Table>
+        </div>
+      </div>
+      <p>Para conhecer melhor a divisão de atividades proposta pelo Caderno do Educador,  você pode rever o Quadro Geral (disponível aqui).</p>
+
+    </>
+    
   );
 }

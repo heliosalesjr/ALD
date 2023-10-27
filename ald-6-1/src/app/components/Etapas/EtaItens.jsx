@@ -46,35 +46,42 @@ export default function App() {
   ];
 
   return (
-    <div className="gap-2 grid grid-cols-2 md:grid-cols-6 sm:grid-cols-6 px-8 mx-8">
-      {list.map((item, index) => (
-        <Card shadow="sm" key={index} isPressable onPress={() => console.log("item pressed")}>
-          <CardBody className="overflow-visible p-0">
-            <Popover placement="down">
-                <PopoverTrigger>
-                <Image
-                shadow="sm"
-                radius="lg"
-                width="100%"
-                alt={item.title}
-                className="w-full object-cover h-[140px]"
-                src={item.img}
-                />
-                </PopoverTrigger>
-                <PopoverContent>
-                    <div className="px-1 py-2">
-                    <div className="text-small font-bold">{item.popTitle}</div>
-                    <div className="text-tiny">{item.popContent}</div>
-                    </div>
-                </PopoverContent>
-            </Popover>
-            </CardBody>
-          <CardFooter className="text-small justify-between">
-            <b>{item.title}</b>
-            
-          </CardFooter>
-        </Card>
-      ))}
-    </div>
+    <>
+      <div>
+        <h1>Resumindo</h1>
+        <p>Abaixo, temos um resumo organizando os itens do roteiro do PPDA às etapas de desenvolvimento de um projeto. Clique nas imagens para ler uma descrição da etapa escolhida:</p>
+      </div>
+      <div className="gap-2 grid grid-cols-2 md:grid-cols-6 sm:grid-cols-6 px-8 mx-8">
+        {list.map((item, index) => (
+          <Card shadow="sm" key={index} isPressable onPress={() => console.log("item pressed")}>
+            <CardBody className="overflow-visible p-0">
+              <Popover placement="down">
+                  <PopoverTrigger>
+                  <Image
+                  shadow="sm"
+                  radius="lg"
+                  width="100%"
+                  alt={item.title}
+                  className="w-full object-cover h-[140px]"
+                  src={item.img}
+                  />
+                  </PopoverTrigger>
+                  <PopoverContent>
+                      <div className="px-1 py-2">
+                      <div className="text-small font-bold">{item.popTitle}</div>
+                      <div className="text-tiny">{item.popContent}</div>
+                      </div>
+                  </PopoverContent>
+              </Popover>
+              </CardBody>
+            <CardFooter className="text-small justify-between">
+              <b>{item.title}</b>
+              
+            </CardFooter>
+          </Card>
+        ))}
+      </div>
+    </>
+    
   );
 }
