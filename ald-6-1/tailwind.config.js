@@ -11,15 +11,22 @@ module.exports = {
     
   ],
   daisyui: {
-    themes: ['light', 'dark']
+    themes: [
+      {
+        light: {
+          ...require("daisyui/src/theming/themes")["[data-theme=light]"],
+          "primary": "#9B91BB",
+          "primary-focus": "#2A609A",
+          "neutral": "#2A609A",
+          "neutral-focus": "white",
+          
+        },
+      },
+    ],
 },
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-      },
+      
     },
   },
   darkMode: "class",

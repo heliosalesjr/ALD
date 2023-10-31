@@ -11,14 +11,14 @@ function FAQDaisy() {
     <div className="container mx-auto flex flex-col md:flex-row items-center justify-center md:justify-between px-4 py-8">
       <div className="md:w-1/2">
         {/* Conteúdo da primeira coluna */}
-        <h1 className="text-5xl font-bold text-center">Materiais do Programa</h1>
+        <h1 className="text-5xl font-bold text-center text-primary">Materiais do Programa</h1>
         <p className="text-xl font-medium text-center mt-4">Saiba mais clicando no nome do material.</p>
         {/* Adicione sua imagem aqui, se necessário */}
       </div>
       <div className="md:w-1/2 mt-8 md:mt-0">
         {/* Conteúdo da segunda coluna */}
         <div
-          className={`collapse collapse-plus hover:bg-gray-100 ${
+          className={`collapse collapse-plus hover:bg-purple-100 ${
             activeAccordion === 1 ? 'open' : ''
           }`}
         >
@@ -36,7 +36,7 @@ function FAQDaisy() {
           </div>
         </div>
         <div
-          className={`collapse collapse-plus hover:bg-gray-100 ${
+          className={`collapse collapse-plus hover:bg-purple-100 ${
             activeAccordion === 2 ? 'open' : ''
           }`}
         >
@@ -54,7 +54,7 @@ function FAQDaisy() {
           </div>
         </div>
         <div
-          className={`collapse collapse-plus hover:bg-gray-100 ${
+          className={`collapse collapse-plus hover:bg-purple-100 ${
             activeAccordion === 3 ? 'open' : ''
           }`}
         >

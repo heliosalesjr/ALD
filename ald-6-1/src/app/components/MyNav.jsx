@@ -45,22 +45,22 @@ const MyNav = () => {
       {isOpen && (
         <div className="md:hidden">
           <div className="flex flex-col space-y-2 mt-2">
-            <Link href="/" className="text-white hover:text-blue-200">
+            <Link href="/" className="text-white hover:text-blue-200 py-4 text-center">
               Apresentação
             </Link>
-            <Link href="/etapas" className="text-white hover:text-blue-200">
+            <Link href="/etapas" className="text-white hover:text-blue-200 py-4 text-center">
               Etapas do Projeto
             </Link>
-            <Link href="/introducao" className="text-white hover:text-blue-200">
+            <Link href="/introducao" className="text-white hover:text-blue-200 py-4 text-center">
               Intodução ao Site 1
             </Link>
-            <Link href="/atividades" className="text-white hover:text-blue-200">
+            <Link href="/atividades" className="text-white hover:text-blue-200 py-4 text-center">
               Atividades do Projeto
             </Link>
-            <Link href="/matematica" className="text-white hover:text-blue-200">
+            <Link href="/matematica" className="text-white hover:text-blue-200 py-4 text-center">
               Matemática e Educação Financeira
             </Link>
-            <Link href="/recursos" className="text-white hover:text-blue-200">
+            <Link href="/recursos" className="text-white hover:text-blue-200 py-4 text-center">
               Recursos Didáticos
             </Link>
           </div>
