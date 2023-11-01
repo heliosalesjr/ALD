@@ -3,7 +3,7 @@ import React from 'react';
 function MatSugestao() {
   return (
     <div className="relative max-w-screen-xl mx-auto p-8">
-      <h1 className="text-3xl font-bold mb-8">
+      <h1 className="text-5xl font-bold mb-8">
         Sugestão de ferramentas para usar em sala
       </h1>
       <div className="flex flex-col md:flex-row">

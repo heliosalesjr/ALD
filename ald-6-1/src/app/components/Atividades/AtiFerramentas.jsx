@@ -1,54 +1,55 @@
 import React from "react";
-import { Card, CardHeader, Image, Button } from "@nextui-org/react";
 
 function AtiFerramentas() {
   return (
-    <div className="max-w-[900px] mx-auto grid gap-8 grid-cols-12 grid-rows-2 px-8">
-      <Card className="col-span-12 sm:col-span-4 h-[300px] relative">
-        <CardHeader className="absolute z-10 top-1 flex-col !items-start">
-          <h4 className="text-white font-medium text-large">Realidade e desejo</h4>
-        </CardHeader>
-        <Image
-          src="/images/mock.png"
-          alt="Livros"
-          className="z-0 w-full h-full object-cover"
-        />
-        <div className="absolute bottom-4 left-4 space-x-2 flex">
-          <Button className="glass bg-blue-500 text-white">Ferramenta</Button>
-          <Button className="glass bg-green-500 text-white">Modelo</Button>
+    <>
+      <div className='mx-auto max-w-screen-xl '>
+        <h1 className='font-bold text-3xl py-4 text-center'>Ferramentas que podem ser utilizadas para fazer esse diagnóstico</h1>
+        <p className="text-gray-700 text-center">Criamos um link para cada uma das sugestões de ferramentas já com o modelo de aplicação com os estudantes. Clique em cada uma dessas ferramentas para conhecê-las e então aplicá-las com os estudantes por meio da plataforma Google:</p>
+      </div>
+      <div className="grid grid-cols-1 mx-auto max-w-screen-xl md:grid-cols-3 sm:grid-cols-1 gap-8 px-8">
+          <div className="card bg-base-100 shadow-xl">
+            <figure className="px-10 pt-10">
+              <img src="/images/doguin.png" alt="Realidade e desejo" className="rounded-xl" />
+            </figure>
+            <div className="card-body items-center text-center">
+              <h2 className="card-title py-4">Realidade e desejo</h2>
+              <div className="card-actions text-center">
+                <button className="btn btn-primary text-white">Explicação</button>
+                <button className="btn btn-primary text-white">Modelo</button>
+              </div>
+            </div>
+          </div>
+
+          <div className="card bg-base-100 shadow-xl">
+            <figure className="px-10 pt-10">
+              <img src="/images/doguin.png" alt="Me agrada, me incomoda" className="rounded-xl" />
+            </figure>
+            <div className="card-body items-center text-center">
+              <h2 className="card-title py-4">Me agrada, me incomoda</h2>
+              <div className="card-actions">
+                <button className="btn btn-primary text-white">Explicação</button>
+                <button className="btn btn-primary text-white">Modelo</button>
+              </div>
+            </div>
+          </div>
+
+          <div className="card bg-base-100 shadow-xl">
+            <figure className="px-10 pt-10">
+              <img src="/images/doguin.png" alt="Jogo de perguntas e respostas" className="rounded-xl" />
+            </figure>
+            <div className="card-body items-center text-center">
+              <h2 className="card-title">Jogo de perguntas e respostas</h2>
+              <div className="card-actions py-4">
+                <button className="btn btn-primary text-white">Explicação</button>
+                <button className="btn btn-primary text-white">Modelo</button>
+              </div>
+            </div>
+          </div>
         </div>
-      </Card>
-      <Card className="col-span-12 sm:col-span-4 h-[300px] relative">
-        <CardHeader className="absolute z-10 top-1 flex-col !items-start">
-          <h4 className="text-white font-medium text-large">Me agrada, me incomoda</h4>
-        </CardHeader>
-        <Image
-          src="/images/books.png"
-          alt="Livros"
-          className="z-0 w-full h-full object-cover"
-        />
-        <div className="absolute bottom-4 left-4 space-x-2 flex">
-          <Button className="glass bg-blue-500 text-white">Ferramenta</Button>
-          <Button className="glass bg-green-500 text-white">Modelo</Button>
-        </div>
-      </Card>
-      <Card className="col-span-12 sm:col-span-4 h-[300px] relative">
-        <CardHeader className="absolute z-10 top-1 flex-col !items-start">
-          <h4 className="text-white font-medium text-large">
-            Jogo de perguntas e respostas
-          </h4>
-        </CardHeader>
-        <Image
-          src="/images/books.png"
-          alt="Livros"
-          className="z-0 w-full h-full object-cover"
-        />
-        <div className="absolute bottom-4 left-4 space-x-2 flex">
-          <Button className="glass bg-blue-500 text-white">Ferramenta</Button>
-          <Button className="glass bg-green-500 text-white">Modelo</Button>
-        </div>
-      </Card>
-    </div>
+    
+    </>
+    
   );
 }
 

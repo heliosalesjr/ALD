@@ -11,12 +11,12 @@ const MyNav = () => {
   };
 
   return (
-    <nav className="bg-primary p-4 mx-auto">
+    <nav className="bg-primary p-4 mx-auto sticky">
       <div className="container mx-auto flex items-center justify-between">
       <a href="/" className="text-white text-2xl font-bold">
         <img src="/images/logo-white.png" alt="Logo" height={60} width={60}/>
       </a>
-        <div className="hidden md:flex space-x-4">
+        <div className="hidden md:flex space-x-4 px-4">
           <Link href="/" className="text-white hover:text-blue-200">
             Apresentação
           </Link>

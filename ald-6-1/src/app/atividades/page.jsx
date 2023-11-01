@@ -6,6 +6,7 @@ import AtiFerramentas from '../components/Atividades/AtiFerramentas'
 import AtiSugestao from '../components/Atividades/AtiSugestao'
 import AtiBotaoNext from '../components/Atividades/AtiBotaoNext'
 import AtiDiagnostico2 from '../components/Atividades/AtiDiagnostico2'
+import AtiDica from '../components/Atividades/AtiDica'
 
 function Atividades() {
   return (
@@ -13,6 +14,7 @@ function Atividades() {
         <MyNav />
         <AtiDiagnostico />
         <AtiFerramentas />
+        <AtiDica />
         <AtiDiagnostico2 />
         <AtiSugestao />
         <AtiBotaoNext />
