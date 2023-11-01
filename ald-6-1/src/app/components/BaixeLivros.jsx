@@ -3,13 +3,13 @@ import React from 'react';
 function BaixeLivros() {
   return (
     <>
-      <section className="bg-primary-focus">
+      <section className="bg-gradient-to-tl from-primary to-primary-focus">
         <div className="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
           <div className="font-light text-white sm:text-lg dark:text-gray-400">
             <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-white dark:text-white">
               Acesse os livros
             </h2>
-            <p className="mb-4">
+            <p className="mb-8">
               A Educação Financeira é um processo contínuo e temos a certeza de que, além de formar os jovens, ela poderá trazer pontos de reflexão instigantes e práticos não apenas para as suas famílias, mas também para os professores. Aproveite!
             </p>
             <div className='px-4'>

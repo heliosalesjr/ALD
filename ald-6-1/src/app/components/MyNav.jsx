@@ -11,7 +11,7 @@ const MyNav = () => {
   };
 
   return (
-    <nav className="bg-sky-700 p-4 mx-auto">
+    <nav className="bg-primary p-4 mx-auto">
       <div className="container mx-auto flex items-center justify-between">
       <a href="/" className="text-white text-2xl font-bold">
         <img src="/images/logo-white.png" alt="Logo" height={60} width={60}/>

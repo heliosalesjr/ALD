@@ -1,21 +1,21 @@
 import React from 'react'
 
-function EtaButton() {
+function IntroButtonNext() {
   return (
     <>
         <div className="flex items-center justify-center">
        
             <p className="p-6  text-center font-bold">
-            Vamos conhecer as atividades e conteúdos dessa etapa?</p>
+            Prontos para nos aprofundarmos nas atividades do projeto?</p>
 
             
         </div>
         <div className='flex items-center justify-center pb-8'>
-            <button className='btn btn-primary text-white'>Introdução ao Site 1</button>
+            <button className='btn btn-primary text-white'>Atividades do Projeto</button>
         </div>
     
     </>
   )
 }
 
-export default EtaButton
+export default IntroButtonNext

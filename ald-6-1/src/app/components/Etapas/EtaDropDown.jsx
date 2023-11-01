@@ -9,15 +9,10 @@ function EtaDropDown() {
   };
   return (
     <>
-      <div className="max-width-xl">
-        {/* Div à esquerda */}
-        <div className=" flex items-center justify-center">
-          <h1 className="text-xl font-bold text-center mb-4">
-            Cada uma dessas etapas abrange itens específicos do PPDA, assim como conteúdos e partes do desenvolvimento do trabalho (encontradas aqui, no Quadro Geral).
-          </h1>
-      </div>
-      <div>
-        {/* Conteúdo da segunda coluna */}
+     
+
+      <div className="container mx-auto">
+        
         <div
           className={`collapse collapse-plus hover:bg-gray-100 ${
             activeAccordion === 1 ? 'open' : ''
@@ -144,7 +139,7 @@ function EtaDropDown() {
           </div>
         </div>
       </div>
-    </div>
+    
     </>
   )
 }

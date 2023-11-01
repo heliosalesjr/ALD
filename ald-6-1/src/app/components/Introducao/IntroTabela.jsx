@@ -1,6 +1,6 @@
 import React from "react";
 import { Table, TableHeader, TableColumn, TableBody, TableRow, TableCell, getKeyValue } from "@nextui-org/react";
-import { CgWebsite } from "react-icons/cg";
+
 
 const rows = [
   {
@@ -61,18 +61,7 @@ export default function IntroTabela() {
           )}
         </TableBody>
       </Table>
-      <h1 className="text-3xl font-bold p-8 text-center">Acesso aos sites</h1>
-        <div className="flex justify-center space-x-16">
-            {[1, 2, 3].map((siteNumber) => (
-                <button
-                key={siteNumber}
-                className="flex items-center justify-center p-4 my-2 mx-2 bg-gradient-to-r from-blue-500 to-green-500 text-white rounded-lg space-x-1 hover:from-green-500 hover:to-blue-500 transition duration-2000"
-                >
-                <CgWebsite size={24} className="mr-2" />
-                Site {siteNumber}
-                </button>
-            ))}
-        </div>
+      
 
 
     

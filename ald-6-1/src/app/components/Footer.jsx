@@ -6,7 +6,7 @@ function Footer() {
   return (
     <>
     
-        <footer className="footer p-10 bg-blue-500 flex justify-between">
+        <footer className="footer p-10 bg-primary flex justify-between">
             <aside>
             <div className="flex-1">
               <Image

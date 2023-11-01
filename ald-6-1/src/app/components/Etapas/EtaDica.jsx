@@ -1,14 +1,14 @@
 function EtaDica() {
     return (
-      <div className="flex items-center justify-center bg-purple-500">
-        <div className="attention-box p-6 text-white text-center">
+      <div className="flex items-center justify-center bg-primary">
+        <div className="attention-box p-6 text-white text-center font-bold">
           <p>
             Para ver um exemplo de PPDA retirado do Caderno do Educador,{' '}
             <a
               href="https://drive.google.com/file/d/12E0LT8LgJ4YTIjBF4ZtWm4MNtM-XJJ_6/view"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-300 hover:underline"
+              className=" hover:underline"
             >
               clique aqui
             </a>
@@ -20,7 +20,7 @@ function EtaDica() {
               href="https://drive.google.com/file/d/1RHB6py4aN184ildSb9Je_LVaQdPxHL8J/view"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-300 hover:underline"
+              className=" hover:underline"
             >
               clique aqui
             </a>

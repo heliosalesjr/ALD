@@ -47,10 +47,15 @@ export default function App() {
 
   return (
     <>
-      <div>
-        <h1>Resumindo</h1>
-        <p>Abaixo, temos um resumo organizando os itens do roteiro do PPDA às etapas de desenvolvimento de um projeto. Clique nas imagens para ler uma descrição da etapa escolhida:</p>
-      </div>
+      
+      <div className="container mx-auto ">
+      <h1 className="text-3xl font-bold mt-8">Resumindo</h1>
+      <p className="text-lg mt-4 py-4">
+      Abaixo, temos um resumo organizando os itens do roteiro do PPDA às etapas de desenvolvimento de um projeto. Clique nas imagens para ler uma descrição da etapa escolhida:
+      </p>
+    </div>
+
+  
       <div className="gap-2 grid grid-cols-2 md:grid-cols-6 sm:grid-cols-6 px-8 mx-8">
         {list.map((item, index) => (
           <Card shadow="sm" key={index} isPressable onPress={() => console.log("item pressed")}>
@@ -68,13 +73,13 @@ export default function App() {
                   </PopoverTrigger>
                   <PopoverContent>
                       <div className="px-1 py-2">
-                      <div className="text-small font-bold">{item.popTitle}</div>
-                      <div className="text-tiny">{item.popContent}</div>
+                      <div className="text-lg font-bold text-center">{item.popTitle}</div>
+                      <div className="text-md">{item.popContent}</div>
                       </div>
                   </PopoverContent>
               </Popover>
               </CardBody>
-            <CardFooter className="text-small justify-between">
+            <CardFooter className="text-small justify-center">
               <b>{item.title}</b>
               
             </CardFooter>

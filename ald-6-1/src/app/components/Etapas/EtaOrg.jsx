@@ -48,16 +48,16 @@ export default function EtaOrg() {
   return (
 
     <>
-      <div>
-        <h1>Como este material está organizado dentro dos sites</h1>
-        <p>Para auxiliar na visualização da divisão das ações, criamos a tabela abaixo que organiza o conteúdo de cada site em relação às etapas de elaboração de um PPDA.  </p>
+      <div className="container mx-auto">
+        <h1 className="text-3xl font-bold mt-8">Como este material está organizado dentro dos sites</h1>
+        <p className="text-lg mt-4 py-4">Para auxiliar na visualização da divisão das ações, criamos a tabela abaixo que organiza o conteúdo de cada site em relação às etapas de elaboração de um PPDA.  </p>
       </div>
       <div className="flex justify-center">
         <div style={{ maxWidth: "1000px", width: "100%" }}>
-          <Table aria-label="Example table with dynamic content">
+          <Table aria-label="Nomenclatura dos Sites">
             <TableHeader columns={columns}>
               {(column) => (
-                <TableColumn key={column.key} className="font-bold text-lg">
+                <TableColumn key={column.key} className="font-bold text-lg text-white bg-primary">
                   {column.label}
                 </TableColumn>
               )}
@@ -76,7 +76,7 @@ export default function EtaOrg() {
           </Table>
         </div>
       </div>
-      <p>Para conhecer melhor a divisão de atividades proposta pelo Caderno do Educador,  você pode rever o Quadro Geral (disponível aqui).</p>
+      <p className="text-lg mt-4 py-4">Para conhecer melhor a divisão de atividades proposta pelo Caderno do Educador,  você pode rever o Quadro Geral (disponível aqui).</p>
 
     </>
     

@@ -4,7 +4,7 @@ const SectionOne = () => {
   return (
 
     
-      <section className="bg-white py-16 mx-auto max-w-screen-xl text-gray-700 p-8 flex flex-col md:flex-row">
+      <section className=" py-16 mx-auto max-w-screen-xl text-gray-700 p-8 flex flex-col md:flex-row">
         {/* Div da seção (2/3 da tela em telas grandes) */}
         <div className="w-full md:w-2/3 md:p-8 flex flex-col justify-center items-center">
           <div className="container mx-auto text-center">
