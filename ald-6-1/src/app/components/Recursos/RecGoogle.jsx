@@ -10,10 +10,8 @@ const RecGoogle = () => {
       <section className="mb-32">
         <div className="flex flex-wrap">
           <div className="mb-6 w-full shrink-0 grow-0 basis-auto px-3 lg:mb-0 lg:w-4/12">
-            <p className="mb-6 font-bold uppercase text-primary dark:text-primary-400">
-              Features
-            </p>
-            <h2 className="mb-6 text-3xl font-bold">
+            
+            <h2 className="mb-6 text-3xl font-bold py-8">
               Conhecendo as ferramentas{' '}
               <u className="text-primary dark:text-primary-400">Google</u>
             </h2>
@@ -33,8 +31,10 @@ const RecGoogle = () => {
               <div className="mb-12 w-full shrink-0 grow-0 basis-auto lg:w-6/12 lg:px-3">
                 <div className="flex">
                   <div className="shrink-0">
-                    <div className="rounded-md p-4 bg-red-100 text-primary dark:text-primary-400">
+                    <div className="rounded-md p-4 bg-red-300 text-primary dark:text-primary-400">
+                    <a href="http://forms.google.com" target="_blank" rel="noopener noreferrer">
                       <SiGoogleforms className="h-6 w-6 text-gray-600" />
+                    </a>
                     </div>
                   </div>
                   <div className="ml-4 grow">
@@ -51,8 +51,10 @@ const RecGoogle = () => {
               <div className="mb-12 w-full shrink-0 grow-0 basis-auto lg:w-6/12 lg:px-3">
                 <div className="flex">
                   <div className="shrink-0">
-                    <div className="rounded-md p-4 bg-yellow-100 text-primary dark:text-primary-400">
-                      <SiGoogleclassroom className="h-6 w-6 text-gray-600" />
+                    <div className="rounded-md p-4 bg-yellow-300 text-primary dark:text-primary-400">
+                      <a href="http://classroom.google.com" target="_blank" rel="noopener noreferrer">
+                        <SiGoogleclassroom className="h-6 w-6 text-gray-600" />
+                      </a>
                     </div>
                   </div>
                   <div className="ml-4 grow">
@@ -69,8 +71,10 @@ const RecGoogle = () => {
               <div className="mb-12 w-full shrink-0 grow-0 basis-auto lg:w-6/12 lg:px-3">
                 <div className="flex">
                   <div className="shrink-0">
-                    <div className="rounded-md p-4 bg-green-100 text-primary dark:text-primary-400">
-                      <SiJamboard className="h-6 w-6 text-gray-600" />
+                    <div className="rounded-md p-4 bg-green-300 text-primary dark:text-primary-400">
+                      <a href="http://jamboard.google.com" target="_blank" rel="noopener noreferrer">
+                        <SiJamboard className="h-6 w-6 text-gray-600" />
+                      </a>
                     </div>
                   </div>
                   <div className="ml-4 grow">
@@ -87,8 +91,10 @@ const RecGoogle = () => {
               <div className="mb-12 w-full shrink-0 grow-0 basis-auto lg:w-6/12 lg:px-3">
                 <div className="flex">
                   <div className="shrink-0">
-                    <div className="rounded-md p-4 bg-blue-100 text-primary dark:text-primary-400">
-                      <PiGoogleDriveLogo className="h-6 w-6 text-gray-600" />
+                    <div className="rounded-md p-4 bg-blue-300 text-primary dark:text-primary-400">
+                      <a href="http://drive.google.com" target="_blank" rel="noopener noreferrer">
+                        <PiGoogleDriveLogo className="h-6 w-6 text-gray-600" />
+                      </a>
                     </div>
                   </div>
                   <div className="ml-4 grow">

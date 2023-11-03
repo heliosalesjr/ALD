@@ -13,4 +13,13 @@
     left: 25%; /* Ajuste a posição inicial do retângulo aqui */
     transform: translateX(-50%);
   }
-  
+
+  /* Seu arquivo CSS personalizado */
+.custom-accordion-title {
+  color: blue; /* Cor do texto */
+  cursor: pointer;
+}
+
+.custom-accordion-title:hover {
+  text-decoration: underline; /* Sublinhado no hover */
+}
