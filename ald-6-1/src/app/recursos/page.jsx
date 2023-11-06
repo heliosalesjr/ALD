@@ -8,11 +8,13 @@ import RecDicas from '../components/Recursos/RecDicas'
 import RecMapaMental from '../components/Recursos/RecMapaMental'
 import RecSugestao from '../components/Recursos/RecSugestao'
 import RecFiqueSabendo from '../components/Recursos/RecFiqueSabendo'
+import RecHero from '../components/Recursos/RecHero'
 
 function Recursos() {
   return (
     <>
         <MyNav />
+        <RecHero />
         <RecGoogle/>
         <RecDicas />
         <RecLembre/>

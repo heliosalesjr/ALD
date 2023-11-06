@@ -10,12 +10,14 @@ import EtaDica from '../components/Etapas/EtaDica'
 import EtaPPDANovo from '../components/Etapas/EtaPPDAnovo'
 import EtaDica2 from '../components/Etapas/EtaDica2'
 import EtaButton from '../components/Etapas/EtaButton'
+import EtaHero from '../components/Etapas/EtaHero'
 
 
 function Etapas() {
   return (
     <>
         <MyNav />
+        <EtaHero />
         <EtaPPDANovo />
         
         <EtaDica />

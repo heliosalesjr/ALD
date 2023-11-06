@@ -52,15 +52,16 @@ function MatSugestao() {
             <a href="https://youtu.be/C87YFYToHTA" target="_blank" rel="noopener noreferrer" className="text-blue-500 underline">
               tutorial
             </a>
-            .
+            
           </p>
         </div>
-        <div className="w-full md:w-1/3 flex justify-center items-center">
+        <div className="w-full md:w-1/3 flex justify-center items-center py-4">
           <a href="https://www.google.com/intl/pt-BR/forms/about/" target="_blank" rel="noopener noreferrer">
             <img src="/images/gforms.png" alt="Imagem Formulários Google" className="w-full" />
           </a>
         </div>
       </div>
+      <div className='divider max-w-screen-xl mx-auto'></div>
     </div>
   );
 }

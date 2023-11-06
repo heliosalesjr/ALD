@@ -9,11 +9,13 @@ import MatPropriedades from '../components/Matematica/MatPropriedades'
 import MatSistemaNumeracao from '../components/Matematica/MatSistemaNumeracao'
 import MatSistemaMonetario from '../components/Matematica/MatSistemaMonetario'
 import MatOperacoes from '../components/Matematica/MatOperacoes'
+import MatHero from '../components/Matematica/MatHero'
 
 function Matematica() {
   return (
     <>
         <MyNav />
+        <MatHero />
         <MatIntro />
         <MatDiferenca />
         <MatSugestao />

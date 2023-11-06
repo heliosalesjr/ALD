@@ -12,8 +12,8 @@ function BaixeLivros() {
             <p className="mb-8">
               A Educação Financeira é um processo contínuo e temos a certeza de que, além de formar os jovens, ela poderá trazer pontos de reflexão instigantes e práticos não apenas para as suas famílias, mas também para os professores. Aproveite!
             </p>
-            <div className='px-4'>
-              <button className="btn btn-customizado btn-outline">
+            <div className='flex'>
+              <button className="btn btn-customizado btn-outline mr-4">
                 Caderno do Educador
               </button>
               <button className="btn btn-customizado btn-outline">

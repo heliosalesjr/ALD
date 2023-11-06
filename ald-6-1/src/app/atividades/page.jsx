@@ -7,11 +7,13 @@ import AtiSugestao from '../components/Atividades/AtiSugestao'
 import AtiBotaoNext from '../components/Atividades/AtiBotaoNext'
 import AtiDiagnostico2 from '../components/Atividades/AtiDiagnostico2'
 import AtiDica from '../components/Atividades/AtiDica'
+import AtivHero from '../components/Atividades/AtivHero'
 
 function Atividades() {
   return (
     <>
         <MyNav />
+        <AtivHero />
         <AtiDiagnostico />
         <AtiFerramentas />
         <AtiDica />

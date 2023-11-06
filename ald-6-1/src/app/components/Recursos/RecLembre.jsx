@@ -4,7 +4,7 @@ import './custom.css'
 function RecLembre() {
   return (
     <div className="container my-24 mx-auto md:px-6">
-      <section className="mb-32">
+      <section className="mb-12">
         <div className="flex flex-wrap items-center">
           <div className="mb-6 w-full shrink-0 grow-0 basis-auto px-3 lg:mb-0 lg:w-4/12">
             <h2 className="mb-6 text-3xl font-bold">
@@ -132,6 +132,7 @@ function RecLembre() {
             </div>
           </div>
         </div>
+        <div className='divider max-w-screen-xl mx-auto'></div>
       </section>
     </div>
   );

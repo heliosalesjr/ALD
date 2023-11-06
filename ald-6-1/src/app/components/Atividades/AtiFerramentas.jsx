@@ -46,6 +46,7 @@ function AtiFerramentas() {
               </div>
             </div>
           </div>
+          <div className='divider max-w-screen-xl mx-auto'></div>
         </div>
     
     </>

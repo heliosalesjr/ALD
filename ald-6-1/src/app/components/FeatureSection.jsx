@@ -43,7 +43,7 @@ const FeatureSection = () => {
           </div>
         </div>
       </section>
-      {/* Section: Design Block */}
+      <div className='divider max-w-screen-xl mx-auto'></div>
     </div>
   );
 };
