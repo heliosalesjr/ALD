@@ -1,4 +1,6 @@
+
 import React from 'react'
+import Link from 'next/link';
 
 function AtiBotaoNext() {
   return (
@@ -11,13 +13,16 @@ function AtiBotaoNext() {
             Você pode copiá-la, preenchê-la e torná-la acessível aos estudantes.
             </p>
         </div>
-
+        
         <div className="flex justify-center">
         
             <div className="p-4 ">
                 <p className='text-gray-700 p-2 font-normal'>Vamos conhecer os conteúdos de Matemática a serem trabalhados nesta etapa?</p>
-                <div className="flex justify-center py-4"> {/* Novo contêiner */}
-                <button className="btn btn-primary text-white">Matemática e Educação Financeira</button>
+                <div className="flex justify-center py-4">
+                  <Link href="/matematica">
+                  <button className="btn btn-primary text-white">Matemática e Educação Financeira</button>
+                  </Link>
+                
                 </div>
             </div>
         </div>

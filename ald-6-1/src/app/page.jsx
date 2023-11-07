@@ -13,6 +13,7 @@ import SectionOne from "./components/SectionOne"
 import FAQDaisy from './components/FAQDaisy'
 import Divider from "./components/Divider"
 import BaixeLivros from "./components/BaixeLivros"
+import MainButton from "./components/MainButton"
 
 
 export default function Home() {
@@ -29,7 +30,7 @@ export default function Home() {
       <FAQDaisy />
       <BaixeLivros  />
       <CarouselHere />
-      
+      <MainButton />
       <Footer />
     </>
   )
