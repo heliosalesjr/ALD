@@ -5,7 +5,7 @@ function RecDicas() {
   return (
     <div className='bg-primary'>
       <div className='max-w-screen-xl mx-auto p-4 bg-primary'>
-        <h1 className='font-bold text-3xl py-4 text-center text-white'>Dicas para o trabalho utilizando as ferramentas Google</h1>
+        <h1 className='font-bold text-4xl py-4 text-center text-white'>Dicas para o trabalho utilizando as ferramentas Google</h1>
         <p className='text-white py-4'>Os dispositivos compartilháveis e as ferramentas colaborativas do Google ajudam os professores a preparar todos os alunos com formas novas e mais interessantes de aprender as habilidades necessárias.</p>
       </div>
       <div className="max-w-screen-xl mx-auto bg-primary p-4 mb-12 lg:mb-0 flex space-x-8 flex-col md:flex-row">

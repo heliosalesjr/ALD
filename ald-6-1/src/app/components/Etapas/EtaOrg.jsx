@@ -48,9 +48,9 @@ export default function EtaOrg() {
   return (
 
     <>
-      <div className="container mx-auto">
-        <h1 className="text-3xl font-bold mt-8">Como este material está organizado dentro dos sites</h1>
-        <p className="text-lg mt-4 py-4">Para auxiliar na visualização da divisão das ações, criamos a tabela abaixo que organiza o conteúdo de cada site em relação às etapas de elaboração de um PPDA.  </p>
+      <div className="container mx-auto max-w-screen-xl py-8">
+        <h1 className="text-center pt-8 text-5xl font-bold  text-gray-600">Como este material está organizado dentro dos sites</h1>
+        <p className="mt-4 p-4 text-gray-800 text-lg ">Para auxiliar na visualização da divisão das ações, criamos a tabela abaixo que organiza o conteúdo de cada site em relação às etapas de elaboração de um PPDA.  </p>
       </div>
       <div className="flex justify-center">
         <div style={{ maxWidth: "1000px", width: "100%" }}>
@@ -76,7 +76,18 @@ export default function EtaOrg() {
           </Table>
         </div>
       </div>
-      <p className="text-lg mt-4 py-4">Para conhecer melhor a divisão de atividades proposta pelo Caderno do Educador,  você pode rever o Quadro Geral (disponível aqui).</p>
+      <p className="text-center text-lg mt-4 p-4 text-gray-800">
+        Para conhecer melhor a divisão de atividades proposta pelo Caderno do Educador, você pode rever o Quadro Geral (
+        <a
+          href="https://docs.google.com/spreadsheets/d/1DFJAnY_SmwUOelCjAFSarbtot7P0ehB0BptqqehtM30/edit#gid=0"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-500 underline hover:text-blue-700"
+        >
+          disponível aqui
+        </a>
+        ).
+      </p>
 
     </>
     

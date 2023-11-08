@@ -11,7 +11,7 @@ const RecGoogle = () => {
         <div className="flex flex-wrap">
           <div className="mb-6 w-full shrink-0 grow-0 basis-auto px-3 lg:mb-0 lg:w-4/12">
             
-            <h2 className="mb-6 text-3xl font-bold py-8">
+            <h2 className="mb-6 text-4xl font-bold text-gray-700 py-8">
               Conhecendo as ferramentas{' '}
               <u className="text-primary dark:text-primary-400">Google</u>
             </h2>

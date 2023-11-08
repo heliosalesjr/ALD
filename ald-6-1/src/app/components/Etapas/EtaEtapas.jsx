@@ -40,20 +40,18 @@ export default function EtaEtapas() {
   return (
     <>
     <div className="container mx-auto ">
-      <h1 className="text-3xl font-bold mt-8">Etapas do desenvolvimento de um projeto</h1>
+      <h1 className="font-bold text-2xl md:text-5xl sm:text-3xl text-gray-700 py-4 text-center">Etapas do desenvolvimento de um projeto</h1>
       <p className="text-lg mt-4 py-4">
       Um projeto nada mais é do que um plano onde definimos e organizamos ações a serem executadas visando atingirmos a um objetivo. Para elencar ações a serem desenvolvidas, podemos dividir as etapas de aplicação do projeto. Estas etapas facilitam a visualização do que precisa ser feito, consequentemente auxiliando na definição de ações. Para o desenvolvimento de nosso PPDA, sugerimos a adoção de seis etapas:
       </p>
     </div>
-    <div className="container mx-auto flex flex-wrap justify-center py-4">
+    <div className="container mx-auto flex flex-wrap justify-center text-center py-4">
       {cardData.map((card, index) => (
-        <Card key={index} className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 mx-1 my-1">
-              <CardHeader className="flex gap-3">
-                <div className="bg-primary p-2 rounded-full">
-                  <LiaProjectDiagramSolid className="text-white" />
-                </div>
+        <Card key={index} className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 mx-1 my-1 text-center">
+              <CardHeader className="flex gap-3 text-center">
+                
                 <div className="flex flex-col">
-                  <p className="text-md text-primary font-bold">{card.title}</p>
+                  <p className=" text-md text-primary font-bold ">{card.title}</p>
                 </div>
               </CardHeader>
               <Divider />

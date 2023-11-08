@@ -40,8 +40,8 @@ export default function IntroTabela() {
   return (
 
     <div style={{ maxWidth: "1100px", margin: "0 auto" }} className="py-8">
-        <h1 className="text-3xl font-bold p-8">Site 1</h1>
-        <p className="p-8 mb-4">Vamos ver quais Etapas do Projeto, temas de Matemática e ferramentas didáticas serão tratadas neste site.</p>
+        <h1 className="font-bold text-2xl md:text-5xl sm:text-3xl text-gray-700 py-4 text-center">Site 1</h1>
+        <p className="p-8 mb-4 text-center">Vamos ver quais Etapas do Projeto, temas de Matemática e ferramentas didáticas serão tratadas neste site:</p>
       
       <Table aria-label="Example table with dynamic content" style={{ fontSize: "1.2rem" }}>
         <TableHeader columns={columns}>

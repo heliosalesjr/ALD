@@ -6,7 +6,7 @@ const SectionHalf = () => {
     <section className="py-16 flex">
       {/* Primeira Div (Imagem de Fundo) */}
       <div className="w-1/3 hidden md:block">
-        <div className="w-full h-full bg-cover bg-center" style={{ backgroundImage: 'url("/images/learns.jpg")' }}></div>
+        <div className="w-full h-full bg-cover bg-center" style={{ backgroundImage: 'url("/images/piggy_real.jpg")' }}></div>
       </div>
       
       {/* Div que envolve o conteúdo com limite de largura */}

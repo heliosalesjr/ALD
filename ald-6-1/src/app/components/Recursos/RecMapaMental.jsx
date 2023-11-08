@@ -5,7 +5,7 @@ import "./custom.css"
 function RecMapaMental() {
   return (
     <div className="mx-auto max-w-screen-xl px-4">
-      <h1 className="text-3xl font-bold py-4">Estratégia Didática: Mapa Mental</h1>
+      <h1 className="text-4xl text-gray-700 font-bold py-4">Estratégia Didática: Mapa Mental</h1>
       <p className="text-gray-700">
         O mapa mental permite organizar conceitos e/ou ideias que vão se ramificando sob a forma de galhos, formando uma “árvore do conhecimento”. Esse mapa possui uma estrutura flexível, sendo possível adicionar a ele outros elementos, como desenhos, imagens, vídeos etc.
       </p>

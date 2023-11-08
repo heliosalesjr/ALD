@@ -11,7 +11,7 @@ function AtiSugestao() {
       <div className="flex flex-col-reverse md:flex-row items-center justify-between p-4 md:p-8 relative z-10">
         <div className="w-full md:w-1/2 pr-4">
           <h1 className="text-3xl font-bold text-white mb-4 mx-8 py-4">Sugestão de ferramenta</h1>
-          <p className="text-white mx-8">
+          <p className="text-white text-lg mx-8">
             Para aprender como elaborar um formulário Google, acesse este tutorial. Como todas as respostas ficarão disponíveis em seu Drive, você poderá acessá-las sempre que necessário ao longo do projeto.
           </p>
           <br />

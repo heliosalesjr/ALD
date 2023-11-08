@@ -6,39 +6,39 @@ export default function App() {
   const list = [
     {
       title: "Diagnóstico",
-      img: "/images/books.png",
+      img: "/images/diagnostico.png",
       popTitle: 'Diagnóstico',
       popContent: 'Compreende os itens: 1. Turma, 2. Duração do projeto, 3. Tema, 4. Perfil da Turma, 5. Fator de Mobilização do PPDA. ',
       
     },
     {
       title: "Conteúdos e Habilidades",
-      img: "/images/doguin.png",
+      img: "/images/conteudos.png",
       popTitle: 'Conteúdos e Habilidades',
       popContent: 'Compreende o item 6. Habilidades específicas da BNCC do PPDA.',
       
     },
     {
       title: "Planejamento",
-      img: "/images/howmuch.png",
+      img: "/images/planejamento.png",
       popTitle: 'Planejamento',
       popContent: 'Compreende o item 9. Apresentação e finalização do PPDA.',
     },
     {
       title: "Atividades",
-      img: "/images/learns.jpg",
+      img: "/images/atividades.png",
       popTitle: 'Atividades',
       popContent: 'Compreende o item 7. Atividades do PPDA.',
     },
     {
       title: "Avaliação",
-      img: "/images/postit.png",
+      img: "/images/avaliacao.png",
       popTitle: 'Avaliação',
       popContent: 'Compreende o item 8. Avaliação do PPDA.',
     },
     {
       title: "Culminância",
-      img: "/images/books.png",
+      img: "/images/culminancia.png",
       popTitle: 'Culminância',
       popContent: 'Compreende o item 10. Culminância-Celebração do PPDA.',
     },
@@ -49,7 +49,7 @@ export default function App() {
     <>
       
       <div className="container mx-auto ">
-      <h1 className="text-3xl font-bold mt-8">Resumindo</h1>
+      <h1 className="font-bold text-2xl md:text-5xl sm:text-3xl text-gray-700 py-4 text-center">Resumindo</h1>
       <p className="text-lg mt-4 py-4">
       Abaixo, temos um resumo organizando os itens do roteiro do PPDA às etapas de desenvolvimento de um projeto. Clique nas imagens para ler uma descrição da etapa escolhida:
       </p>

@@ -14,7 +14,7 @@ const HeroSection = () => {
             </p>
           </div>
           <div className="hidden md:block">
-            <img src="images/capas_6o_3.png" alt="Capa" className="px-8 w-[2000px]" />
+            <img src="images/covers2.png" alt="Capa" className="px-8 w-[2000px]" />
           </div>
         </div>
       </div>

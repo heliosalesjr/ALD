@@ -1,7 +1,7 @@
 function EtaDica() {
     return (
-      <div className="flex items-center justify-center bg-primary">
-        <div className="attention-box p-6 text-white text-center font-bold">
+      <div className="flex items-center justify-center bg-primary py-8">
+        <div className="attention-box p-6 text-white text-center text-lg">
           <p>
             Para ver um exemplo de PPDA retirado do Caderno do Educador,{' '}
             <a

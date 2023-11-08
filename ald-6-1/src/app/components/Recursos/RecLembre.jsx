@@ -7,7 +7,7 @@ function RecLembre() {
       <section className="mb-12">
         <div className="flex flex-wrap items-center">
           <div className="mb-6 w-full shrink-0 grow-0 basis-auto px-3 lg:mb-0 lg:w-4/12">
-            <h2 className="mb-6 text-3xl font-bold">
+            <h2 className="mb-6 text-4xl font-bold">
             
             <u className="text-primary dark:text-primary-400">
              E lembre-se:
@@ -15,7 +15,7 @@ function RecLembre() {
             
             </h2>
 
-            <p className="mb-12 text-neutral-500 dark:text-neutral-300">
+            <p className="mb-12 text-gray-700 dark:text-neutral-300">
             Para potencializar o trabalho por projetos utilizando o Google Suites, é necessário que tenhamos clara a função de cada uma das ferramentas e que elas serão necessárias para a gestão do projeto. Para isso, siga as dicas:
             </p>
           </div>

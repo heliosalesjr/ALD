@@ -1,6 +1,7 @@
 
 import React from 'react'
 import Link from 'next/link';
+import Divider from '../Divider'
 
 function AtiBotaoNext() {
   return (
@@ -13,7 +14,7 @@ function AtiBotaoNext() {
             Você pode copiá-la, preenchê-la e torná-la acessível aos estudantes.
             </p>
         </div>
-        
+        <Divider />
         <div className="flex justify-center">
         
             <div className="p-4 ">
