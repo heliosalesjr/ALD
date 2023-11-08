@@ -10,6 +10,7 @@ import MatSistemaNumeracao from '../components/Matematica/MatSistemaNumeracao'
 import MatSistemaMonetario from '../components/Matematica/MatSistemaMonetario'
 import MatOperacoes from '../components/Matematica/MatOperacoes'
 import MatHero from '../components/Matematica/MatHero'
+import Divider from '../components/Divider'
 
 function Matematica() {
   return (
@@ -23,6 +24,7 @@ function Matematica() {
         <MatSistemaMonetario />
         <MatOperacoes />
         <MatPropriedades />
+        <Divider />
         <MatButton />
         <Footer />
     

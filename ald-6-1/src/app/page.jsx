@@ -14,6 +14,7 @@ import FAQDaisy from './components/FAQDaisy'
 import Divider from "./components/Divider"
 import BaixeLivros from "./components/BaixeLivros"
 import MainButton from "./components/MainButton"
+import MainProposta from "./components/MainProposta"
 
 
 export default function Home() {
@@ -24,12 +25,17 @@ export default function Home() {
       <SectionOne />
       <Divider />
       <CardList />
+      <Divider />
       <SectionHalf />
+      <Divider />
       <FeatureSection />
       
       <FAQDaisy />
+      <Divider />
       <BaixeLivros  />
-      <CarouselHere />
+      
+      <MainProposta />
+      <Divider />
       <MainButton />
       <Footer />
     </>
