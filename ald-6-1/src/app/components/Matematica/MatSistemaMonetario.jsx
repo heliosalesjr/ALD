@@ -6,7 +6,7 @@ function MatSistemaMonetario() {
     <>
       <div className='max-w-screen-xl mx-auto p-4 bg-primary'>
         <h1 className='font-bold text-3xl py-4 text-center text-white'>Sistema monetário brasileiro</h1>
-        <p className='text-white py-4'>Vamos conhecer um pouco sobre o sistema monetário brasileiro através de dois vídeos: O primeiro se chama "De onde vem o dinheiro?" e o segundo "Sistema Monetário para Crianças"</p>
+        <p className='text-white py-4'>Vamos conhecer um pouco sobre o sistema monetário brasileiro através de dois vídeos: O primeiro se chama De onde vem o dinheiro? e o segundo Sistema Monetário para Crianças.</p>
       </div>
       <div className="max-w-screen-xl mx-auto bg-primary pb-12 p-4 mb-12 lg:mb-0 flex space-x-8 flex-col md:flex-row">
         <div className="w-full lg:w-1/2">

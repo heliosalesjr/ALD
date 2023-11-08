@@ -12,10 +12,10 @@ function AtiDiagnostico2() {
         <li className='text-gray-700 py-2'>Recuperar alguns pré-requisitos de Matemática para quem ainda não os domina.</li>
       </ul>
       <p className='text-gray-700 py-4'>
-        Antes, porém, avise aos estudantes que o objetivo é saber o que eles já conhecem e não atribuir nota, porque assim eles se sentirão mais confortáveis com o livro e o projeto que vão realizar. Para detectar competências e habilidades, um bom ponto de partida é pensar: "Que conteúdos prévios são necessários para abordar esses temas de Educação Financeira e Matemática?".
+        Antes, porém, avise aos estudantes que o objetivo é saber o que eles já conhecem e não atribuir nota, porque assim eles se sentirão mais confortáveis com o livro e o projeto que vão realizar. Para detectar competências e habilidades, um bom ponto de partida é pensar: Que conteúdos prévios são necessários para abordar esses temas de Educação Financeira e Matemática?.
       </p>
       <p className='text-gray-700 py-4'>
-        Para realizar este diagnóstico, você poderá elaborar uma sondagem por meio do Google Formulários e enviá-la aos estudantes via Google Sala de Aula, deixando o link disponível na aba "Atividades" da turma correspondente. Você poderá visualizar os resultados de forma assíncrona, à medida que os jovens realizam as atividades. Como todas as respostas ficarão disponíveis em seu Google Drive, você poderá acessá-las sempre que necessário ao longo do projeto.
+        Para realizar este diagnóstico, você poderá elaborar uma sondagem por meio do Google Formulários e enviá-la aos estudantes via Google Sala de Aula, deixando o link disponível na aba Atividades da turma correspondente. Você poderá visualizar os resultados de forma assíncrona, à medida que os jovens realizam as atividades. Como todas as respostas ficarão disponíveis em seu Google Drive, você poderá acessá-las sempre que necessário ao longo do projeto.
       </p>
     </div>
   );

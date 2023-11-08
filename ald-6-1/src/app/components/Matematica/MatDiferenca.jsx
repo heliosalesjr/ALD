@@ -10,7 +10,7 @@ function MatDiferenca() {
         <div className="w-full md:w-2/3 pr-4">
           <h1 className="text-3xl font-bold text-white mb-4 mx-8 py-4">Diferenciando Matemática Financeira e Educação Financeira</h1>
           <p className="text-white mx-8">
-            O que é matemática financeira? O que é educação financeira? Existe diferença entre esses dois campos do estudo? Para responder a essas perguntas, o texto "BNCC inclui Educação financeira em Matemática," publicado pelo site "Nova Escola," nos convida a essa reflexão.{' '}
+            O que é matemática financeira? O que é educação financeira? Existe diferença entre esses dois campos do estudo? Para responder a essas perguntas, o texto BNCC inclui Educação financeira em Matemática, publicado pelo site Nova Escola, nos convida a essa reflexão.{' '}
             <a
               href="https://novaescola.org.br/conteudo/9798/bncc-inclui-educacao-financeira-em-matematica"
               target="_blank"

@@ -19,7 +19,7 @@ function EtaPPDAFinal() {
             <h1 className="text-lg font-bold py-2">Turma/Série</h1>
             <p>Especifique em que turma será aplicado o roteiro</p>
             <h1 className="text-lg font-bold py-2">Perfil da Turma</h1>
-            <p>Utilize as ferramentas de "diagnóstico" para compreender melhor quem são seus estudantes e, assim, adequar as atividades propostas.</p>
+            <p>Utilize as ferramentas de diagnóstico para compreender melhor quem são seus estudantes e, assim, adequar as atividades propostas.</p>
             <h1 className="text-lg font-bold py-2">Duração do Projeto</h1>
             <p>Especifique o tempo de duração do projeto.</p>
             <h1 className="text-lg font-bold py-2">Tema</h1>
