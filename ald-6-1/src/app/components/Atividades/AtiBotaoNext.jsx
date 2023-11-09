@@ -10,7 +10,7 @@ function AtiBotaoNext() {
             <p className='max-w-screen-xl'>
             Após acessar os exemplos e realizar as dinâmicas de diagnóstico com seus estudantes, registre seu PPDA em uma planilha.
             Assim, você poderá acessá-lo durante a execução do projeto e compartilhá-lo com seus estudantes por meio do Google Sala de Aula.
-            Confira um exemplo de planilha <a href="seu-link-da-planilha-aqui" className="underline">neste link</a>.
+            Confira um exemplo de planilha <a href="seu-link-da-planilha-aqui" className="text-blue-500 hover:text-blue-700 underline">neste link</a>.
             Você pode copiá-la, preenchê-la e torná-la acessível aos estudantes.
             </p>
         </div>

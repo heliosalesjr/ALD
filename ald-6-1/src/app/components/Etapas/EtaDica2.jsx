@@ -8,7 +8,7 @@ function EtaDica2() {
               href="https://docs.google.com/spreadsheets/d/1DFJAnY_SmwUOelCjAFSarbtot7P0ehB0BptqqehtM30/edit#gid=0"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:underline"
+              className="text-blue-100 hover:text-blue-200 underline"
             >
               Quadro Geral
             </a> ).</p>

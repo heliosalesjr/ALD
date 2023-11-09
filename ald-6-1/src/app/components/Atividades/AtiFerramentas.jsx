@@ -15,8 +15,12 @@ function AtiFerramentas() {
             <div className="card-body items-center text-center">
               <h2 className="card-title py-4">Realidade e desejo</h2>
               <div className="card-actions text-center">
-                <button className="btn btn-primary text-white">Explicação</button>
-                <button className="btn btn-primary text-white">Modelo</button>
+                <a href="https://docs.google.com/document/d/1wS14avbhcJd8NbVVn_juK-7LvFMRjrd064cWvk_mrCw/edit" target="_blank" rel="noopener noreferrer">
+                  <button className="btn btn-primary text-white">Explicação</button>
+                </a>
+                <a href="https://docs.google.com/spreadsheets/d/1RnCXUPAmwuUf42tiWhn4H3DT5HTPWIkMHb35bbNyatA/edit#gid=2055273226" target="_blank" rel="noopener noreferrer">
+                  <button className="btn btn-primary text-white">Modelo</button>
+                </a>
               </div>
             </div>
           </div>
@@ -28,8 +32,12 @@ function AtiFerramentas() {
             <div className="card-body items-center text-center">
               <h2 className="card-title py-4">Me agrada, me incomoda</h2>
               <div className="card-actions">
-                <button className="btn btn-primary text-white">Explicação</button>
-                <button className="btn btn-primary text-white">Modelo</button>
+                <a href="https://docs.google.com/document/d/1OCgxyp9bb8KFvmIiu1oJrvypkbb2H20lbbZcsyK4boo/edit" target="_blank" rel="noopener noreferrer">
+                  <button className="btn btn-primary text-white">Explicação</button>
+                </a>
+                <a href="https://jamboard.google.com/d/1SIHHDOaJ1nyOurny5a0qERcZRfc1vKFcQ7cdLpVXfvc/viewer?f=0&pli=1" target="_blank" rel="noopener noreferrer">
+                  <button className="btn btn-primary text-white">Modelo</button>
+                </a>
               </div>
             </div>
           </div>
@@ -41,8 +49,12 @@ function AtiFerramentas() {
             <div className="card-body items-center text-center">
               <h2 className="card-title">Jogo de perguntas e respostas</h2>
               <div className="card-actions py-4">
-                <button className="btn btn-primary text-white">Explicação</button>
-                <button className="btn btn-primary text-white">Modelo</button>
+                <a href="https://docs.google.com/document/d/1ehHEMgdcvgmy1zp8UBF52GiJo1VYp6e2SUZrEMbRaMk/edit" target="_blank" rel="noopener noreferrer">
+                  <button className="btn btn-primary text-white">Explicação</button>
+                </a>
+                <a href="https://jamboard.google.com/d/1N0dXH1ZbNpfax0MkX1srcrnW9NpkgwL7XRvK9636_VE/viewer?f=0" target="_blank" rel="noopener noreferrer">
+                  <button className="btn btn-primary text-white">Modelo</button>
+                </a>
               </div>
             </div>
           </div>

@@ -35,13 +35,13 @@ function AtiDiagnostico() {
           </div>
         </div>
         <div className="container my-4 mx-auto md:px-6">
-            <h2 className="mb-6 text-3xl font-bold text-gray-700 text-center">Você pode pesquisar questões como:</h2>
-            <ul>
-                <li>Idade: qual a idade de cada um? Qual a média de idade dos jovens daquela turma?</li>
-                <li>Atividades fora da escola: há jovens que trabalham? São empregados ou exercem algum tipo de atividade eventual remunerada? Ajudam em casa? Namoram? Praticam esportes? Estudam música, dançam ou se dedicam a algum outro tipo de atividade artística?</li>
-                <li>Interesses: quais os interesses de cada um? Eles já pensaram em projetos de vida, têm sonhos que querem conquistar ou desafios que querem superar?</li>
-                <li>Atitudes e valores: que valores norteiam as escolhas desses jovens? O que eles consideram importante na vida? Quem são as pessoas que admiram e por quê?</li>
-            </ul>
+          <h2 className="mb-6 text-3xl font-bold text-gray-700 text-center">Você pode pesquisar questões como:</h2>
+          <ul className="list-disc pl-4 space-y-2">
+            <li>Idade: qual a idade de cada um? Qual a média de idade dos jovens daquela turma?</li>
+            <li>Atividades fora da escola: há jovens que trabalham? São empregados ou exercem algum tipo de atividade eventual remunerada? Ajudam em casa? Namoram? Praticam esportes? Estudam música, dançam ou se dedicam a algum outro tipo de atividade artística?</li>
+            <li>Interesses: quais os interesses de cada um? Eles já pensaram em projetos de vida, têm sonhos que querem conquistar ou desafios que querem superar?</li>
+            <li>Atitudes e valores: que valores norteiam as escolhas desses jovens? O que eles consideram importante na vida? Quem são as pessoas que admiram e por quê?</li>
+          </ul>
         </div>
       </section>
       {/* Section: Design Block */}

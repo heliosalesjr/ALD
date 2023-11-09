@@ -12,8 +12,10 @@ function RecInfografico() {
                     Infográfico
                     </h2>
                     <p className="mb-4">
-                    Infográfico é um tipo de linguagem que associa elementos verbais (frases curtas) a elementos não verbais (imagens, sons, gráficos etc.). Sua principal função é informar o leitor de maneira simples, rápida e objetiva. Na elaboração de um infográfico, é importante prestar atenção à consonância entre os elementos verbais e não verbais, ou seja, texto, imagens e demais elementos devem se referir sempre ao mesmo assunto. Abaixo você confere um exemplo de infográfico retirado deste link.
+                    Infográfico é um tipo de linguagem que associa elementos verbais (frases curtas) a elementos não verbais (imagens, sons, gráficos etc.). Sua principal função é informar o leitor de maneira simples, rápida e objetiva. Na elaboração de um infográfico, é importante prestar atenção à consonância entre os elementos verbais e não verbais, ou seja, texto, imagens e demais elementos devem se referir sempre ao mesmo assunto. Abaixo você confere um exemplo de infográfico retirado  
+                    <a href="https://bloglogistica.com.br/mercado/infografico-dia-mundial-da-agua/" target="_blank" rel="noopener noreferrer" className="text-blue-500 underline hover:text-blue-700"> deste link</a>.
                     </p>
+
                 </div>
                 <div className="lg:col-span-1 lg:justify-self-center lg:items-center mt-8">
                     <img className="w-full rounded-lg max-w-[300px]" src="images/info1.png" alt="office content 1" />
@@ -59,7 +61,7 @@ function RecInfografico() {
                         href="https://porque.com.br/categoria/infograficos/"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-white"
+                        className="text-white underline hover:text-blue-100"
                     >
                         Infográficos | Por Quê?
                     </a>

@@ -21,7 +21,28 @@ function EtaDD() {
             <AccordionItem key="2" aria-label="Accordion 2" title="Conteúdos e habilidades">
                 <p className='text-gray-700'>Uma vez que o educador e a educadora conhecem seus alunos, é hora de planejar os próximos passos para auxiliar os estudantes a concluir o projeto. E uma ação importante para isso é definir que habilidades específicas da BNCC serão trabalhadas através de quais conteúdos de matemática previstos para a aplicação do programa.</p><br></br>
                 <p className='text-gray-700'>Ao planejar quais habilidades da BNCC e conteúdos de matemática serão trabalhados, professor e professora devem considerar os conteúdos conceituais, procedimentais e atitudinais que devem ser desenvolvidos com aquele projeto. Para saber mais sobre esses diferentes conteúdos, clique aqui.</p><br></br>
-                <p className='text-gray-700'>Para recapitular sobre os diferentes tipos de conteúdos de matemática considerados no planejamento, clique aqui para acessar o Mapa Esquemático de Conteúdos de Matemática, e aqui para acessar o Quadro Geral, que mostra as habilidades sugeridas pela BNCC.</p><br></br>
+                <p className="text-gray-700">
+                    Para recapitular sobre os diferentes tipos de conteúdos de matemática considerados no planejamento,{' '}
+                    <a
+                        href="https://drive.google.com/file/d/10S2XJzIb8EwubbzDjxUlAtSV15DD9OOK/view"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-blue-500 hover:text-blue-700 underline"
+                    >
+                        clique aqui
+                    </a>{' '}
+                    para acessar o Mapa Esquemático de Conteúdos de Matemática, e{' '}
+                    <a
+                        href="https://docs.google.com/spreadsheets/d/1DFJAnY_SmwUOelCjAFSarbtot7P0ehB0BptqqehtM30/edit#gid=0"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-blue-500 hover:text-blue-700 underline"
+                    >
+                        aqui
+                    </a>{' '}
+                    para acessar o Quadro Geral, que mostra as habilidades sugeridas pela BNCC.
+                </p>
+                <br></br>
                 <p className='text-gray-700'>Nesta etapa, está incluído o item 6. Habilidades específicas da BNCC do PPDA.</p><br></br>
             </AccordionItem>
             <AccordionItem key="3" aria-label="Accordion 3" title="Planejamento">

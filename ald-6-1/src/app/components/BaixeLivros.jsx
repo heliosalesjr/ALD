@@ -1,5 +1,3 @@
-import React from 'react';
-
 function BaixeLivros() {
   return (
     <>
@@ -12,19 +10,32 @@ function BaixeLivros() {
             <p className="mb-8">
               A Educação Financeira é um processo contínuo e temos a certeza de que, além de formar os jovens, ela poderá trazer pontos de reflexão instigantes e práticos não apenas para as suas famílias, mas também para os professores. Aproveite!
             </p>
-            <div className='flex'>
-              <button className="btn btn-customizado btn-outline mr-4">
+            {/*
+              As classes de botões são mantidas conforme o padrão para telas médias e menores
+              Os botões permanecerão na mesma linha em telas maiores
+            */}
+            <div className="flex flex-col sm:flex-row space-y-4 lg:flex lg:flex-row md:space-y-0">
+              <a
+                href="https://www.flipsnack.com/7E8DB9BBDC9/caderno_educador_6-_ano_/full-view.html"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-customizado btn-outline mx-4"
+              >
                 Caderno do Educador
-              </button>
-              <button className="btn btn-customizado btn-outline">
+              </a>
+              <a
+                href="https://www.flipsnack.com/7E8DB9BBDC9/livro_ed_financeira_estudante_6-_ano/full-view.html"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-customizado btn-outline mx-4"
+              >
                 Livro do Estudante
-              </button>
+              </a>
             </div>
-            
           </div>
           <div className="grid grid-cols-2 gap-4 mt-8">
-            <img className="w-full" src="images/6o.png" alt="office content 1" />
-            <img className="mt-4 w-full lg:mt-10" src="images/6o_educador.png" alt="office content 2" />
+            <img className="md:w-full" src="images/6o.png" alt="office content 1" />
+            <img className="mt-4 w-full lg:mt-10 " src="images/6o_educador.png" alt="office content 2" />
           </div>
         </div>
       </section>
