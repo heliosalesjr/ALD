@@ -33,9 +33,18 @@ function MainProposta() {
               </p>
             </AccordionItem>
             <AccordionItem key="4" aria-label="Accordion 3" title="Quadro Geral">
-              <p className="text-gray-700">
-              Neste quadro, estão organizados os conteúdos de Matemática e Educação Financeira tratados no Livro do Estudante e as competências específicas da BNCC. Acesse aqui.
-              </p>
+            <p className="text-gray-700">
+                Neste quadro, estão organizados os conteúdos de Matemática e Educação Financeira tratados no Livro do Estudante e as competências específicas da BNCC.{" "}
+                <a
+                    href="https://docs.google.com/spreadsheets/d/1DFJAnY_SmwUOelCjAFSarbtot7P0ehB0BptqqehtM30/edit?usp=sharing"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-500 underline hover:text-blue-700"
+                >
+                    Acesse aqui
+                </a>
+                .
+            </p>
             </AccordionItem>
         </Accordion>
         </div>

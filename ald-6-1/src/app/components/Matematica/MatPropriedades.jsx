@@ -5,7 +5,7 @@ function MatPropriedades() {
     return (
         <div className="container my-24 mx-auto md:px-6">
           {/* Section: Design Block */}
-          <section className="bg-gradient-to-tl from-primary via-purple-800 to-primary-focus mb-32">
+          <section className="bg-gradient-to-tl from-primary to-primary-focus mb-32">
             <div className="px-6 py-6 text-center md:px-12 lg:text-left">
               <div className="container mx-auto">
                 <div className="grid items-center gap-12 lg:grid-cols-2">

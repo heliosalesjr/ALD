@@ -14,7 +14,7 @@ const RecHero = () => {
             </p>
             </div>
             <div className="hidden md:block">
-                <img src="images/percentagem_woman.png" alt="Capa" className="px-8 w-[2000px]" />
+                <img src="images/ilustra_sofa.png" alt="Capa" className="px-8 w-[2000px]" />
             </div>
         </div>
       </div>

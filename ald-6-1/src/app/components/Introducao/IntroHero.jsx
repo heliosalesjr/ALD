@@ -14,7 +14,7 @@ const IntroHero = () => {
             </p>
             </div>
             <div className="hidden md:block">
-                <img src="images/percentagem_woman.png" alt="Capa" className="px-8 w-full" />
+                <img src="images/ilustra_meda.png" alt="Capa" className="px-8 w-full" />
             </div>
         </div>
       </div>
