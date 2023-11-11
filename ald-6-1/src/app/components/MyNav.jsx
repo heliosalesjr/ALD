@@ -11,7 +11,7 @@ const MyNav = () => {
   };
 
   return (
-    <nav className="bg-primary p-4 mx-auto sticky">
+    <nav className="bg-primary p-4 mx-auto">
       <div className="container mx-auto flex items-center justify-between">
       <a href="/" className="text-white text-2xl font-bold">
         <img src="/images/logo-white.png" alt="Logo" height={60} width={60}/>
@@ -44,7 +44,7 @@ const MyNav = () => {
       </div>
       {isOpen && (
         <div className="md:hidden">
-          <div className="flex flex-col space-y-2 mt-2">
+          <div className="flex flex-col space-y-2 mt-2 ">
             <Link href="/" className="text-white hover:text-blue-200 py-4 text-center">
               Apresentação
             </Link>

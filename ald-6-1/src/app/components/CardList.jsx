@@ -12,11 +12,11 @@ const CardList = () => {
       {/* Card 1 */}
       <div className="bg-white custom-border p-4 rounded-md shadow-md transition-transform hover:scale-105 md:col-span-2 relative">
         <div className="hidden lg:block bg-image-card absolute inset-0" style={{ backgroundImage: "url('/images/teste-ilustra4.png')", backgroundSize: 'cover', backgroundPosition: 'center' }}></div>
-        <div className="flex items-center mb-2 relative z-10">
+        <div className="flex items-center mb-2 relative">
           <div className="mr-2 text-2xl "> <BiSlideshow /> </div>
           <h1 className="text-xl font-bold">Como os sites estão estruturados?</h1>
         </div>
-        <p className="text-gray-700 p-5 relative z-10">Pensando em tornar o ambiente virtual padronizado e facilitar a busca por informações, os sites são organizados em seções. Conheça-as nos cards desta seção.</p>
+        <p className="text-gray-700 p-5 relative">Pensando em tornar o ambiente virtual padronizado e facilitar a busca por informações, os sites são organizados em seções. Conheça-as nos cards desta seção.</p>
       </div>
 
       {/* Card 2 */}
@@ -58,11 +58,11 @@ const CardList = () => {
       {/* Card 6 */}
       <div className="bg-white custom-border p-4 rounded-md shadow-md transition-transform hover:scale-105 md:col-span-2 relative">
         <div className="hidden lg:block bg-image-card-2 absolute inset-0" style={{ backgroundImage: "url('/images/teste-ilustra2.png')", backgroundSize: 'cover', backgroundPosition: 'center' }}></div>
-        <div className="flex items-center mb-2 relative z-10">
+        <div className="flex items-center mb-2 relative">
           <div className="mr-2 text-2xl"> <PiStepsDuotone /> </div>
           <h1 className="text-xl font-bold">Etapas do Projeto</h1>
         </div>
-        <p className="text-gray-700 p-5 relative z-10">Esta seção, presente apenas neste primeiro site, apresentará as Etapas do Projeto, que são as ações de desenvolvimento do projeto utilizadas por alunos e professores para organizar o desenvolvimento do programa.</p>
+        <p className="text-gray-700 p-5 relative">Esta seção, presente apenas neste primeiro site, apresentará as Etapas do Projeto, que são as ações de desenvolvimento do projeto utilizadas por alunos e professores para organizar o desenvolvimento do programa.</p>
       </div>
     </div>
   );

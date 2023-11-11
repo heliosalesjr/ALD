@@ -11,6 +11,7 @@ import Divider from "./components/Divider"
 import BaixeLivros from "./components/BaixeLivros"
 import MainButton from "./components/MainButton"
 import MainProposta from "./components/MainProposta"
+import AnotherNav from "./components/AnotherNav"
 
 
 export default function Home() {
