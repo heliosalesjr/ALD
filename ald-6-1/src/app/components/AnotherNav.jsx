@@ -14,7 +14,7 @@ function AnotherNav() {
     }
   return (
     <>
-        <nav className='fixed w-full h-20 shadow-xl bg-primary'>
+        <nav className='fixed w-full h-20 shadow-xl bg-primary z-999999 top-0 left-0'>
             <div className='flex justify-between items-center h-full w-full px-4 2xl:px-16'>
             
                 <Link href='/'>

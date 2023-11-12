@@ -12,6 +12,7 @@ import BaixeLivros from "./components/BaixeLivros"
 import MainButton from "./components/MainButton"
 import MainProposta from "./components/MainProposta"
 import AnotherNav from "./components/AnotherNav"
+import NextNavbar from "./components/NextNavbar"
 
 
 export default function Home() {

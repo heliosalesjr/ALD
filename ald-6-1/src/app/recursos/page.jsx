@@ -9,6 +9,7 @@ import RecMapaMental from '../components/Recursos/RecMapaMental'
 import RecSugestao from '../components/Recursos/RecSugestao'
 import RecFiqueSabendo from '../components/Recursos/RecFiqueSabendo'
 import RecHero from '../components/Recursos/RecHero'
+import AnotherNav from '../components/AnotherNav'
 
 function Recursos() {
   return (

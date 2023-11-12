@@ -22,6 +22,8 @@
     height: 100%;
   }
 body{
+    z-index: 1;
     overflow-x: hidden;
+    position: relative;
 }
   

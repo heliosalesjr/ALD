@@ -2,7 +2,7 @@ import React from 'react';
 
 const HeroSection = () => {
   return (
-    <div className="bg-gradient-to-b from-primary to-primary-focus mx-auto h-[40rem] flex items-center justify-center text-white">
+    <div className="bg-gradient-to-b from-primary to-primary-focus mx-auto pt-20 h-[40rem] flex items-center justify-center text-white">
       <div className='max-w-screen-xl'>
         <div className="text-center flex items-center justify-between px-12">
           <div>
