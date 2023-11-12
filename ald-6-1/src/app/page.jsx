@@ -18,7 +18,7 @@ import NextNavbar from "./components/NextNavbar"
 export default function Home() {
   return (
     <>
-      <MyNav />
+      <NextNavbar />
       <HeroSection />
       <SectionOne />
       <Divider />

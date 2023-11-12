@@ -1,65 +1,103 @@
+'use client'
 import React from "react";
-import {Navbar, NavbarBrand, NavbarContent, NavbarItem, Link, Input, DropdownItem, DropdownTrigger, Dropdown, DropdownMenu, Avatar} from "@nextui-org/react";
-import { AiOutlineMenu } from "react-icons/ai";
+import {Navbar, NavbarBrand, NavbarMenuToggle, NavbarMenuItem, NavbarMenu, NavbarContent, NavbarItem, Link, Button} from "@nextui-org/react";
 
-export default function NextNavbar() {
+export default function App() {
+  const [isMenuOpen, setIsMenuOpen] = React.useState(false);
+
+  const links = [
+    { label: "Apresentação", href: "/" },
+    { label: "Etapas do Projeto", href: "/etapas" },
+    { label: "Introdução ao Site 1", href: "/introducao" },
+    { label: "Atividades do Projeto", href: "/atividades" },
+    { label: "Matemática e Educação Financeira", href: "/matematica" },
+    { label: "Recursos Didáticos", href: "/recursos" },
+  ];
+
   return (
-    <Navbar isBordered>
-      <NavbarContent justify="start">
-        <NavbarBrand className="mr-4">
-          <AiOutlineMenu />
-          <p className="hidden sm:block font-bold text-inherit">ACME</p>
-        </NavbarBrand>
-        <NavbarContent className="hidden sm:flex gap-3">
-          <NavbarItem>
-            <Link color="foreground" href="#">
-              Features
-            </Link>
-          </NavbarItem>
-          <NavbarItem isActive>
-            <Link href="#" aria-current="page" color="secondary">
-              Customers
-            </Link>
-          </NavbarItem>
-          <NavbarItem>
-            <Link color="foreground" href="#">
-              Integrations
-            </Link>
-          </NavbarItem>
-        </NavbarContent>
+    <Navbar
+      isBordered
+      isMenuOpen={isMenuOpen}
+      onMenuOpenChange={setIsMenuOpen}
+    >
+      <NavbarContent className="sm:hidden" justify="start">
+        <NavbarMenuToggle aria-label={isMenuOpen ? "Close menu" : "Open menu"} />
       </NavbarContent>
 
-      <NavbarContent as="div" className="items-center" justify="end">
+      <NavbarContent className="sm:hidden pr-3" justify="center">
         
-        <Dropdown placement="bottom-end">
-          <DropdownTrigger>
-            <Avatar
-              isBordered
-              as="button"
-              className="transition-transform"
-              color="secondary"
-              name="Jason Hughes"
-              size="sm"
-              src="https://i.pravatar.cc/150?u=a042581f4e29026704d"
-            />
-          </DropdownTrigger>
-          <DropdownMenu aria-label="Profile Actions" variant="flat">
-            <DropdownItem key="profile" className="h-14 gap-2">
-              <p className="font-semibold">Signed in as</p>
-              <p className="font-semibold">zoey@example.com</p>
-            </DropdownItem>
-            <DropdownItem key="settings">My Settings</DropdownItem>
-            <DropdownItem key="team_settings">Team Settings</DropdownItem>
-            <DropdownItem key="analytics">Analytics</DropdownItem>
-            <DropdownItem key="system">System</DropdownItem>
-            <DropdownItem key="configurations">Configurations</DropdownItem>
-            <DropdownItem key="help_and_feedback">Help & Feedback</DropdownItem>
-            <DropdownItem key="logout" color="danger">
-              Log Out
-            </DropdownItem>
-          </DropdownMenu>
-        </Dropdown>
+          <img src="/images/logo-blue.png" alt="Logo" height={50} width={50}/>
+          
+        
       </NavbarContent>
+
+      <NavbarContent className="hidden sm:flex gap-4" justify="center">
+        
+          <img src="/images/logo-blue.png" alt="Logo" height={60} width={60}/>
+        
+
+        <NavbarItem>
+        <Link 
+          className="transition-all duration-500 ease-in-out hover:text-blue-900 hover:border-b hover:border-primary-focus hover:font-semibold" 
+          href="/"
+          color="foreground"
+        >
+          Apresentação
+        </Link>
+        </NavbarItem>
+        <NavbarItem>
+          <Link className="transition-all duration-500 ease-in-out hover:text-blue-900 hover:border-b hover:border-primary-focus hover:font-semibold" 
+          href="/etapas"
+          color="foreground">
+          Etapas do Projeto
+          </Link>
+        </NavbarItem>
+        <NavbarItem>
+          <Link className="transition-all duration-500 ease-in-out hover:text-blue-900 hover:border-b hover:border-primary-focus hover:font-semibold" 
+          href="/introducao"
+          color="foreground">
+          Intodução ao Site 1
+          </Link>
+        </NavbarItem>
+        <NavbarItem>
+          <Link className="transition-all duration-500 ease-in-out hover:text-blue-900 hover:border-b hover:border-primary-focus hover:font-semibold" 
+          href="/atividades"
+          color="foreground">
+          Atividades do Projeto
+          </Link>
+        </NavbarItem>
+        <NavbarItem>
+          <Link className="transition-all duration-500 ease-in-out hover:text-blue-900 hover:border-b hover:border-primary-focus hover:font-semibold" 
+          href="/matematica"
+          color="foreground">
+          Matemática e Educação Financeira
+          </Link>
+        </NavbarItem>
+        <NavbarItem>
+          <Link className="transition-all duration-500 ease-in-out hover:text-blue-900 hover:border-b hover:border-primary-focus hover:font-semibold" 
+          href="/recursos"
+          color="foreground">
+          Recursos Didáticos
+          </Link>
+        </NavbarItem>
+      </NavbarContent>
+
+      
+
+      <NavbarMenu>
+        {links.map((link, index) => (
+          <NavbarMenuItem key={index}>
+            <Link
+              className="w-full font-semibold text-primary-focus py-4 hover:text-primary"              
+              href={link.href}
+              size="lg"
+            >
+              {link.label}
+            </Link>
+          </NavbarMenuItem>
+        ))}
+      </NavbarMenu>
+
     </Navbar>
   );
 }

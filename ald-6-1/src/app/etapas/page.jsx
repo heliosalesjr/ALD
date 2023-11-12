@@ -14,11 +14,12 @@ import EtaHero from '../components/Etapas/EtaHero'
 import EtaPPDAFinal from '../components/Etapas/EtaPPDA'
 import EtaDD from '../components/Etapas/EtaDD'
 import Divider from "../components/Divider"
+import NextNavBar from "../components/NextNavbar"
 
 function Etapas() {
   return (
     <>
-        <MyNav />
+        <NextNavBar />
         <EtaHero />
         
         <EtaPPDAFinal />

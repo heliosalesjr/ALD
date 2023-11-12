@@ -9,11 +9,12 @@ import AtiDiagnostico2 from '../components/Atividades/AtiDiagnostico2'
 import AtiDica from '../components/Atividades/AtiDica'
 import AtivHero from '../components/Atividades/AtivHero'
 import Divider from '../components/Divider'
+import NextNavBar from "../components/NextNavbar"
 
 function Atividades() {
   return (
     <>
-        <MyNav />
+        <NextNavBar />
         <AtivHero />
         <AtiDiagnostico />
         <Divider / >

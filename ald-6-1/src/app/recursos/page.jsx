@@ -10,11 +10,12 @@ import RecSugestao from '../components/Recursos/RecSugestao'
 import RecFiqueSabendo from '../components/Recursos/RecFiqueSabendo'
 import RecHero from '../components/Recursos/RecHero'
 import AnotherNav from '../components/AnotherNav'
+import NextNavBar from "../components/NextNavbar"
 
 function Recursos() {
   return (
     <>
-        <MyNav />
+        <NextNavBar />
         <RecHero />
         <RecGoogle/>
         <RecDicas />
