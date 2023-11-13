@@ -14,4 +14,27 @@
   --background-end-rgb: 255, 255, 255;
 }
 
+:root {
+  --primary: #9B91BB;
+  --secondary: rgba(31, 209, 253, 0.4);
+  --tertiary: rgb(251, 251, 252);
+}
 
+*::-webkit-scrollbar {
+  width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--tertiary);
+  border-radius: 5px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--primary);
+  border-radius: 14px;
+  border: 3px solid var(--primary);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--tertiary);
+}

@@ -2,7 +2,7 @@ import React from 'react';
 
 const MatHero = () => {
   return (
-    <div className="bg-gradient-to-b from-primary to-primary-focus mx-auto h-[40rem] flex items-center justify-center text-white">
+    <div className="bg-gradient-to-b from-primary to-primary-focus pt-20 mx-auto h-[40rem] flex items-center justify-center text-white">
       <div className='max-w-screen-xl'>
         <div className="text-center flex items-center justify-between px-12">
             <div>
