@@ -1,6 +1,5 @@
 'use client'
-import MyNav from '../components/MyNav'
-import Footer from '../components/Footer'
+
 import MatIntro from '../components/Matematica/MatIntro'
 import MatDiferenca from '../components/Matematica/MatDiferenca'
 import MatSugestao from '../components/Matematica/MatSugestao'
@@ -11,12 +10,12 @@ import MatSistemaMonetario from '../components/Matematica/MatSistemaMonetario'
 import MatOperacoes from '../components/Matematica/MatOperacoes'
 import MatHero from '../components/Matematica/MatHero'
 import Divider from '../components/Divider'
-import NextNavBar from "../components/NextNavbar"
+
 
 function Matematica() {
   return (
     <>
-        <NextNavBar />
+        
         <MatHero />
         <MatIntro />
         <MatDiferenca />
@@ -27,7 +26,7 @@ function Matematica() {
         <MatPropriedades />
         <Divider />
         <MatButton />
-        <Footer />
+        
     
     </>
     

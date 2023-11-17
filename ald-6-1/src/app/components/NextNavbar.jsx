@@ -1,6 +1,7 @@
 'use client'
 import React from "react";
-import {Navbar, NavbarBrand, NavbarMenuToggle, NavbarMenuItem, NavbarMenu, NavbarContent, NavbarItem, Link, Button} from "@nextui-org/react";
+import {Navbar, NavbarMenuToggle, NavbarMenuItem, NavbarMenu, NavbarContent, NavbarItem, Link, Button} from "@nextui-org/react";
+
 
 export default function App() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
@@ -25,15 +26,19 @@ export default function App() {
       </NavbarContent>
 
       <NavbarContent className="sm:hidden pr-3" justify="center">
-        
+        <a href="/">
           <img src="/images/logo-blue.png" alt="Logo" height={50} width={50}/>
-          
+        </a>
+              
+              
         
       </NavbarContent>
 
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
         
-          <img src="/images/logo-blue.png" alt="Logo" height={60} width={60}/>
+        <img src="/images/logo-blue.png" alt="Logo" height={60} width={60}/>
+        
+        
         
 
         <NavbarItem>

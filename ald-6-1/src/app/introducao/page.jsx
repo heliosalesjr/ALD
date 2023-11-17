@@ -10,13 +10,12 @@ import NextNavBar from "../components/NextNavbar"
 function Introcucao() {
   return (
     <>
-        <NextNavBar />
-          <IntroHero />
-          <IntroTabela />
-          <IntroButons  />
-          <IntroButtonNext />
-        <Footer />
-    
+        
+        <IntroHero />
+        <IntroTabela />
+        <IntroButons  />
+        <IntroButtonNext />
+        
     </>
     
   )
