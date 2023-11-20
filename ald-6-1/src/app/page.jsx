@@ -1,9 +1,8 @@
 'use client'
 import CardList from "./components/CardList"
 import FeatureSection from "./components/FeatureSection"
-import Footer from "./components/Footer"
 import HeroSection from "./components/HeroSection"
-import MyNav from "./components/MyNav"
+
 import SectionHalf from "./components/SectionHalf"
 import SectionOne from "./components/SectionOne"
 import FAQDaisy from './components/FAQDaisy'

@@ -5,6 +5,7 @@ import {Navbar, NavbarMenuToggle, NavbarMenuItem, NavbarMenu, NavbarContent, Nav
 
 export default function App() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
+  
 
   const links = [
     { label: "Apresentação", href: "/" },
@@ -15,6 +16,8 @@ export default function App() {
     { label: "Recursos Didáticos", href: "/recursos" },
   ];
 
+  const currentPath = typeof window !== "undefined" ? window.location.pathname : "";
+  
   return (
     <Navbar
       isBordered
@@ -35,6 +38,7 @@ export default function App() {
       </NavbarContent>
 
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
+        
         
         <img src="/images/logo-blue.png" alt="Logo" height={60} width={60}/>
         
