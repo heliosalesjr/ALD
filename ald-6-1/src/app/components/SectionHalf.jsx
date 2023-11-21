@@ -1,4 +1,5 @@
 import React from 'react';
+import { motion } from "framer-motion"
 //DaisyUI
 
 const SectionHalf = () => {
@@ -6,7 +7,8 @@ const SectionHalf = () => {
     <section className="py-16 flex">
       {/* Primeira Div (Imagem de Fundo) */}
       <div className="w-1/3 hidden md:block">
-        <div className="w-full h-full bg-cover bg-center" style={{ backgroundImage: 'url("/images/piggy_real.jpg")' }}></div>
+        <motion.div className="w-full h-full bg-cover bg-center" whileHover={{ scale: 1.1 }}
+    whileTap={{ scale: 0.9 }} style={{ backgroundImage: 'url("/images/piggy_real.jpg")' }}></motion.div>
       </div>
       
       {/* Div que envolve o conteúdo com limite de largura */}

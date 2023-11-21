@@ -1,7 +1,17 @@
+import { motion, Variants } from "framer-motion";
+
+
 function BaixeLivros() {
   return (
     <>
-      <section className="bg-gradient-to-tl from-primary to-primary-focus">
+      <motion.section 
+      className="bg-gradient-to-tl from-primary to-primary-focus"
+      initial={{ opacity: 0 }}
+     
+      transition={{  ease: "linear",
+      duration: 2, }}
+      whileInView={{ opacity: 1 }}
+      viewport={{ once: true }}>
         <div className="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
           <div className="font-light text-white sm:text-lg dark:text-gray-400">
             <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-white dark:text-white">
@@ -38,7 +48,7 @@ function BaixeLivros() {
             <img className="mt-4 w-full lg:mt-10 " src="images/6o_educador.png" alt="office content 2" />
           </div>
         </div>
-      </section>
+      </motion.section>
     </>
   );
 }

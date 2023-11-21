@@ -1,4 +1,5 @@
 import React from 'react';
+import { motion } from "framer-motion"
 
 const HeroSection = () => {
   return (
@@ -13,9 +14,13 @@ const HeroSection = () => {
               Olá, professor e professora! Seja bem-vindo e bem-vinda ao site de apoio da coleção Aprendendo a Lidar com Dinheiro: Educação Financeira. Nesta seção, há informações sobre o que são os sites “Aprendendo a Lidar com Dinheiro” e como estão organizados, facilitando a navegação e consulta. Vamos conhecê-los?
             </p>
           </div>
-          <div className="hidden md:block">
+          <motion.div 
+            className="hidden md:block"
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
+          >
             <img src="images/covers2.png" alt="Capa" className="px-8 w-[2000px]" />
-          </div>
+          </motion.div>
         </div>
       </div>
     </div>
