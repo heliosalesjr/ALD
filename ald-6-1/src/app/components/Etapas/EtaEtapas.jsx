@@ -1,6 +1,8 @@
+'use client'
 import React from "react";
 import { Card, CardHeader, CardBody, Divider } from "@nextui-org/react";
 import { LiaProjectDiagramSolid } from "react-icons/lia";
+import { motion } from 'framer-motion'
 
 
 
@@ -45,7 +47,10 @@ export default function EtaEtapas() {
       Um projeto nada mais é do que um plano onde definimos e organizamos ações a serem executadas visando atingirmos a um objetivo. Para elencar ações a serem desenvolvidas, podemos dividir as etapas de aplicação do projeto. Estas etapas facilitam a visualização do que precisa ser feito, consequentemente auxiliando na definição de ações. Para o desenvolvimento de nosso PPDA, sugerimos a adoção de seis etapas:
       </p>
     </div>
-    <div className="container mx-auto flex flex-wrap justify-center text-center py-4">
+    <motion.div className="container mx-auto flex flex-wrap justify-center text-center py-4"
+      initial={{ opacity: 0, scale: 0.5 }}
+      whileInView={{ opacity: 1, scale: 1 }}
+      >
       {cardData.map((card, index) => (
         <Card key={index} className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 mx-1 my-1 text-center">
               <CardHeader className="flex gap-3 text-center">
@@ -60,7 +65,7 @@ export default function EtaEtapas() {
               </CardBody>
             </Card>
           ))}
-    </div>
+    </motion.div>
     
     </>
   );

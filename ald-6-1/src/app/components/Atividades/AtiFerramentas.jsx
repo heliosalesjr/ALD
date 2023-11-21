@@ -1,4 +1,6 @@
+'use client'
 import React from "react";
+import { motion } from 'framer-motion'
 
 function AtiFerramentas() {
   return (
@@ -7,7 +9,9 @@ function AtiFerramentas() {
         <h2 className='font-bold text-2xl md:text-4xl sm:text-3xl text-gray-700 py-4 text-center'>Ferramentas que podem ser utilizadas para fazer esse diagnóstico</h2>
         <p className="text-gray-800 text-center">Criamos um link para cada uma das sugestões de ferramentas já com o modelo de aplicação com os estudantes. Clique em cada uma dessas ferramentas para conhecê-las e então aplicá-las com os estudantes por meio da plataforma Google:</p>
       </div>
-      <div className="grid grid-cols-1 mx-auto max-w-screen-xl md:grid-cols-3 sm:grid-cols-1 gap-8 px-8">
+      <motion.div className="grid grid-cols-1 mx-auto max-w-screen-xl md:grid-cols-3 sm:grid-cols-1 gap-8 px-8"
+        initial={{ opacity: 0, scale: 0.5 }}
+        whileInView={{ opacity: 1, scale: 1 }}>
           <div className="card bg-base-100 shadow-xl">
             <figure className="px-10 pt-10">
               <img src="/images/desejo.png" alt="Realidade e desejo" className="rounded-xl" />
@@ -59,7 +63,7 @@ function AtiFerramentas() {
             </div>
           </div>
           <div className='divider max-w-screen-xl mx-auto'></div>
-        </div>
+        </motion.div>
     
     </>
     

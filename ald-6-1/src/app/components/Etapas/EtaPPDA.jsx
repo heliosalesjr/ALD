@@ -1,7 +1,7 @@
-
+'use client'
 import React from "react";
 import {Card, CardBody} from "@nextui-org/react";
-
+import { motion } from 'framer-motion'
 
 function EtaPPDAFinal() {
   return (
@@ -13,7 +13,10 @@ function EtaPPDAFinal() {
             </p>
       </div>
 
-      <div className="flex flex-col md:flex-row gap-4 mx-auto max-w-screen-xl pb-12">
+      <motion.div className="flex flex-col md:flex-row gap-4 mx-auto max-w-screen-xl pb-12"
+        initial={{ opacity: 0, scale: 0.5 }}
+        whileInView={{ opacity: 1, scale: 1 }}
+        >
         <Card className="px-4">
           <CardBody className="flex flex-col justify-center">
             <h1 className="text-lg font-bold py-2">Turma/Série</h1>
@@ -44,7 +47,7 @@ function EtaPPDAFinal() {
           </CardBody>
         </Card>
 
-      </div>
+      </motion.div>
     
     </>
   )
