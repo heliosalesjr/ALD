@@ -97,9 +97,10 @@ export default function App() {
         {links.map((link, index) => (
           <NavbarMenuItem key={index}>
             <Link
-              className="w-full font-semibold text-primary-focus py-4 hover:text-primary"              
               href={link.href}
               size="lg"
+              style={{ display: 'block', textAlign: 'center' }}
+              className="font-semibold text-primary-focus py-4 hover:text-primary"
             >
               {link.label}
             </Link>

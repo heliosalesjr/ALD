@@ -15,8 +15,8 @@ module.exports = {
       {
         light: {
           ...require("daisyui/src/theming/themes")["[data-theme=light]"],
-          "primary": "#9B91BB",
-          "primary-focus": "#2A609A",
+          "primary": "#9282C5",
+          "primary-focus": "#1965B6",
           "neutral": "#2A609A",
           "neutral-focus": "white",
           
