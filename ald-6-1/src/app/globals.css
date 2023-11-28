@@ -6,6 +6,12 @@
   .btn-customizado{
     color:white
   }
+  .bg-customLightGray {
+    background-color: #C5C8D0; /* Sua cor personalizada aqui */
+  }
+  .bg-customMediumGray {
+    background-color: #5A5E63; /* Sua cor personalizada aqui */
+  }
 }
 
 :root {

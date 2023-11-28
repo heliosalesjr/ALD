@@ -46,7 +46,7 @@ export default function IntroTabela() {
       <Table aria-label="Example table with dynamic content" style={{ fontSize: "1.2rem" }}>
         <TableHeader columns={columns}>
           {(column) => (
-            <TableColumn key={column.key} style={{ fontWeight: "bold", textAlign: "center", fontSize: "14px" }}>
+            <TableColumn key={column.key} className="font-medium text-lg text-white bg-primary">
               {column.label}
             </TableColumn>
           )}

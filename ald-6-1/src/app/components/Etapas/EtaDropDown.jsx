@@ -11,7 +11,7 @@ function EtaDropDown() {
     <>
      
 
-      <div className="container mx-auto">
+      <div className="bg-customLightGray container mx-auto">
         
         <div
           className={`collapse collapse-plus hover:bg-gray-100 ${

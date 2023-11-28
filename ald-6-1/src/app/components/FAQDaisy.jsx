@@ -3,11 +3,11 @@ import {Accordion, AccordionItem} from "@nextui-org/react";
 function FAQDaisy() {
   
   return (
-    <div className="container mx-auto flex flex-col md:flex-row items-center justify-center md:justify-between px-4">
+    <div className="container mx-auto flex flex-col md:flex-row items-center justify-center md:justify-between p-8">
       <div className="md:w-1/2">
         {/* Conteúdo da primeira coluna */}
-        <h1 className="text-5xl font-bold text-center text-gray-600">Materiais do Programa</h1>
-        <p className="text-xl font-gray-700 text-center mt-4">Saiba mais clicando no nome do material.</p>
+        <h1 className="text-5xl font-bold text-center text-gray-700">Materiais do Programa</h1>
+        <p className="text-xl font-gray-800 text-center mt-4">Saiba mais clicando no nome do material.</p>
         {/* Adicione sua imagem aqui, se necessário */}
       </div>
       <div className="md:w-1/2 mt-8 md:mt-0">
