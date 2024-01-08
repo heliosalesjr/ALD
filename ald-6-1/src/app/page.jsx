@@ -12,7 +12,6 @@ import MainButton from "./components/MainButton"
 import MainProposta from "./components/MainProposta"
 
 
-
 export default function Home() {
   return (
     <>
