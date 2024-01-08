@@ -19,6 +19,7 @@ module.exports = {
           "primary-focus": "#1965B6",
           "neutral": "#2A609A",
           "neutral-focus": "white",
+          "dark-accent": "#D53C41"
           
         },
       },
@@ -26,6 +27,14 @@ module.exports = {
 },
   theme: {
     extend: {
+      colors: {
+        primary: "#9282C5",
+        "primary-focus": "#1965B6",
+        neutral: "#2A609A",
+        "neutral-focus": "white",
+        "dark-accent": "#896D84",
+        "light-accent": "#979C75"
+      },
       
     },
   },

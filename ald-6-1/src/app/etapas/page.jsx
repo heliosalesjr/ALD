@@ -21,7 +21,7 @@ function Etapas() {
        
         <EtaHero />
         <EtaTesteCards />
-        <EtaPPDAFinal />
+        
         <EtaDica />
         <EtaEtapas />
         <EtaDica2 />
