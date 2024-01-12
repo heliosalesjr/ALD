@@ -17,7 +17,7 @@ import EtaTesteCards from '../components/Etapas/EtaTesteCards'
 
 function Etapas() {
   return (
-    <>
+    <div id="etapas">
        
         <EtaHero />
         <EtaTesteCards />
@@ -34,7 +34,7 @@ function Etapas() {
         <EtaButton />
      
 
-    </>
+    </div>
     
   )
 }

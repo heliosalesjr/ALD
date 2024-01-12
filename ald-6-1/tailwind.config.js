@@ -32,7 +32,7 @@ module.exports = {
         "primary-focus": "#1965B6",
         neutral: "#2A609A",
         "neutral-focus": "white",
-        "dark-accent": "#896D84",
+        "dark-accent": "#845F91",
         "light-accent": "#979C75"
       },
       
