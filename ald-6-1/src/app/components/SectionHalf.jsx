@@ -13,7 +13,7 @@ const SectionHalf = () => {
         </div>
         
         {/* Div que envolve o conteúdo com limite de largura */}
-        <div className="p-8 mb-4 md:w-2/3 bg-customMediumGray mx-auto max-w-screen-lg">
+        <div className="p-8 mb-4 md:w-2/3 bg-slate-500 mx-auto max-w-screen-lg">
           <h1 className="text-3xl font-bold text-white py-4">O que é Educação Financeira?</h1>
           <p className="text-white">
             Segundo a Organização de Cooperação e de Desenvolvimento Econômico (OCDE), Educação Financeira pode ser definida como o processo pelo qual consumidores e/ou investidores financeiros melhoram sua compreensão sobre produtos e conceitos financeiros para desenvolver a capacidade de adquirir as habilidades e a confiança necessárias para se tornarem mais conscientes dos riscos na hora da tomada de decisões.

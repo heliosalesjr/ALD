@@ -16,8 +16,6 @@ export default function App() {
     { label: "Recursos Didáticos", href: "/recursos" },
   ];
 
-  const currentPath = typeof window !== "undefined" ? window.location.pathname : "";
-  
   return (
     <Navbar
       isBordered
@@ -47,45 +45,65 @@ export default function App() {
 
         <NavbarItem>
         <Link 
-          className="transition-all duration-500 ease-in-out hover:text-blue-900 hover:border-b hover:border-primary-focus hover:font-semibold" 
+          className={`transition-all duration-500 ease-in-out ${
+            location.pathname === '/' ? 'border-b-3 border-primary font-semibold text-blue-900' : 'hover:text-blue-900  hover:border-primary-focus hover:font-semibold'
+          }`}
           href="/"
           color="foreground"
+          passHref
         >
           Apresentação
         </Link>
         </NavbarItem>
+        
         <NavbarItem>
-          <Link className="transition-all duration-500 ease-in-out hover:text-blue-900 hover:border-b hover:border-primary-focus hover:font-semibold" 
+          <Link className={`transition-all duration-500 ease-in-out ${
+              location.pathname === '/etapas' ? 'border-b-3 border-primary font-semibold text-blue-900' : 'hover:text-blue-900  hover:border-primary-focus hover:font-semibold'
+            }`}
           href="/etapas"
-          color="foreground">
+          color="foreground"
+          passHref>
           Etapas do Projeto
           </Link>
         </NavbarItem>
+
         <NavbarItem>
-          <Link className="transition-all duration-500 ease-in-out hover:text-blue-900 hover:border-b hover:border-primary-focus hover:font-semibold" 
+          <Link className={`transition-all duration-500 ease-in-out ${
+              location.pathname === '/introducao' ? 'border-b-3 border-primary font-semibold text-blue-900' : 'hover:text-blue-900  hover:border-primary-focus hover:font-semibold'
+            }`} 
           href="/introducao"
-          color="foreground">
+          color="foreground"
+          passHref>
           Intodução ao Site 1
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link className="transition-all duration-500 ease-in-out hover:text-blue-900 hover:border-b hover:border-primary-focus hover:font-semibold" 
+          <Link className={`transition-all duration-500 ease-in-out ${
+              location.pathname === '/atividades' ? 'border-b-3 border-primary font-semibold text-blue-900' : 'hover:text-blue-900  hover:border-primary-focus hover:font-semibold'
+            }`} 
           href="/atividades"
-          color="foreground">
+          color="foreground"
+          passHref>
           Atividades do Projeto
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link className="transition-all duration-500 ease-in-out hover:text-blue-900 hover:border-b hover:border-primary-focus hover:font-semibold" 
+          <Link className={`transition-all duration-500 ease-in-out ${
+              location.pathname === '/matematica' ? 'border-b-3 border-primary font-semibold text-blue-900' : 'hover:text-blue-900  hover:border-primary-focus hover:font-semibold'
+            }`} 
           href="/matematica"
-          color="foreground">
+          color="foreground"
+          passHref>
           Matemática e Educação Financeira
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link className="transition-all duration-500 ease-in-out hover:text-blue-900 hover:border-b hover:border-primary-focus hover:font-semibold" 
+          <Link className={`transition-all duration-500 ease-in-out ${
+              location.pathname === '/recursos' ? 'border-b-3 border-primary font-semibold text-blue-900' : 'hover:text-blue-900  hover:border-primary-focus hover:font-semibold'
+            }`} 
           href="/recursos"
-          color="foreground">
+          color="foreground"
+          passHref>
           Recursos Didáticos
           </Link>
         </NavbarItem>
@@ -100,7 +118,10 @@ export default function App() {
               href={link.href}
               size="lg"
               style={{ display: 'block', textAlign: 'center' }}
-              className="font-semibold text-primary-focus py-4 hover:text-primary"
+              className={`font-semibold text-primary-focus py-4 hover:text-primary ${
+                location.pathname === link.href ? 'border-b-3 border-primary' : ''
+              }`}
+              passHref
             >
               {link.label}
             </Link>
