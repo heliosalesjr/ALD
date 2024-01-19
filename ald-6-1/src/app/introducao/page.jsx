@@ -4,6 +4,7 @@ import IntroTabela from '../components/Introducao/IntroTabela'
 import IntroButons from '../components/Introducao/IntroButons'
 import IntroButtonNext from '../components/Introducao/IntroButtonNext'
 import IntroHero from '../components/Introducao/IntroHero'
+import { Divider } from '@nextui-org/react'
 
 
 function Introcucao() {
@@ -13,6 +14,7 @@ function Introcucao() {
         <IntroHero />
         <IntroTabela />
         <IntroButons  />
+        <Divider className='max-w-5xl mx-auto'/>
         <IntroButtonNext />
         
     </>

@@ -42,8 +42,8 @@ export default function EtaEtapas() {
   return (
     <>
     <div className="container mx-auto ">
-      <h1 className="font-bold text-2xl md:text-5xl sm:text-3xl text-gray-700 py-4 text-center">Etapas do desenvolvimento de um projeto</h1>
-      <p className="text-lg mt-4 py-4">
+      <h1 className="font-bold text-4xl text-slate-700 p-4 text-center">Etapas do desenvolvimento de um projeto</h1>
+      <p className="text-lg text-slate-700 mt-4 py-4 px-4">
       Um projeto nada mais é do que um plano onde definimos e organizamos ações a serem executadas visando atingirmos a um objetivo. Para elencar ações a serem desenvolvidas, podemos dividir as etapas de aplicação do projeto. Estas etapas facilitam a visualização do que precisa ser feito, consequentemente auxiliando na definição de ações. Para o desenvolvimento de nosso PPDA, sugerimos a adoção de seis etapas:
       </p>
     </div>

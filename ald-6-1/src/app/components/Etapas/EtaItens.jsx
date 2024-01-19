@@ -49,8 +49,8 @@ export default function App() {
     <>
       
       <div className="container mx-auto ">
-      <h1 className="font-bold text-2xl md:text-5xl sm:text-3xl text-gray-700 py-4 text-center">Resumindo</h1>
-      <p className="text-lg mt-4 py-4">
+      <h1 className="font-bold text-4xl text-slate-700 py-4 text-center">Resumindo</h1>
+      <p className="text-lg mt-4 p-4">
       Abaixo, temos um resumo organizando os itens do roteiro do PPDA às etapas de desenvolvimento de um projeto. Clique nas imagens para ler uma descrição da etapa escolhida:
       </p>
     </div>

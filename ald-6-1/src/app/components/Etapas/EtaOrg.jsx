@@ -49,7 +49,7 @@ export default function EtaOrg() {
 
     <>
       <div className="container mx-auto max-w-screen-xl py-8">
-        <h1 className="text-center pt-8 text-5xl font-bold  text-gray-600">Como este material está organizado dentro dos sites</h1>
+        <h1 className="text-center pt-8 text-4xl font-bold  text-slate-700">Como este material está organizado dentro dos sites</h1>
         <p className="mt-4 p-4 text-gray-800 text-lg ">Para auxiliar na visualização da divisão das ações, criamos a tabela abaixo que organiza o conteúdo de cada site em relação às etapas de elaboração de um PPDA.  </p>
       </div>
       <div className="flex justify-center">

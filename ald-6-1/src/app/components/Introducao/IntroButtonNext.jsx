@@ -6,7 +6,7 @@ function IntroButtonNext() {
     <>
         <div className="flex items-center justify-center">
        
-          <p className="p-6 text-center text-gray-700 text-lg">
+          <p className="p-8 text-center text-slate-700 text-lg">
             Prontos para nos aprofundarmos nas atividades do projeto?</p>
 
             

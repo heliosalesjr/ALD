@@ -8,7 +8,7 @@ function EtaDica() {
             href="https://drive.google.com/file/d/12E0LT8LgJ4YTIjBF4ZtWm4MNtM-XJJ_6/view"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-blue-100 hover:text-blue-200 underline"
+            className="text-sky-50 hover:text-sky-400 underline"
           >
             clique aqui
           </a>
@@ -20,7 +20,7 @@ function EtaDica() {
             href="https://drive.google.com/file/d/1RHB6py4aN184ildSb9Je_LVaQdPxHL8J/view"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-blue-100 hover:text-blue-200 underline"
+            className="text-sky-50 hover:text-sky-400 underline"
           >
             clique aqui
           </a>

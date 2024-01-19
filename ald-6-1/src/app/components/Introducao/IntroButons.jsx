@@ -3,7 +3,7 @@ import { CgWebsite } from "react-icons/cg";
 function IntroButons() {
   return (
     <>
-        <h1 className="text-3xl font-bold p-8 text-center">Acesso aos sites</h1>
+        <h1 className="text-4xl font-bold p-8 text-center text-slate-700">Acesso aos sites</h1>
         <div className="flex justify-center space-x-16 pb-8">
             {[1, 2, 3].map((siteNumber) => (
                 <button
