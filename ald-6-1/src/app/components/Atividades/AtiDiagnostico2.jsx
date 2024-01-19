@@ -3,7 +3,7 @@ import React from 'react';
 function AtiDiagnostico2() {
   return (
     <div className="max-w-screen-xl mx-auto p-4">
-      <h1 className="font-bold text-2xl md:text-4xl sm:text-3xl text-gray-700 py-8 text-center">Diagnóstico 2: Conhecimentos prévios de Educação Financeira e Matemática</h1>
+      <h1 className="font-bold text-4xl text-slate-700 py-8 text-center">Diagnóstico 2: Conhecimentos prévios de Educação Financeira e Matemática</h1>
       <p className='text-gray-700 py-4'>
         Com este diagnóstico, é possível avaliar até que ponto os estudantes dominam os conteúdos que são pré-requisitos para a aplicação deste programa. Se os jovens não dominam conhecimentos básicos, não adianta avançar com o programa sem resolver as dificuldades prévias. Nesse caso, é preciso adotar estratégias para recuperar o conhecimento de forma que todos possam avançar no aprendizado, especialmente ao aplicar os conceitos nos casos de uso do dinheiro e educação financeira. Portanto, com esse primeiro diagnóstico, você consegue ao mesmo tempo:
       </p>

@@ -10,7 +10,7 @@ function AtiDiagnostico() {
             <div className="mb-12 w-full shrink-0 grow-0 basis-auto lg:mb-0 lg:w-7/12 lg:order-2 ">
               <div className="flex h-full items-center rounded-lg  p-6 text-center   lg:pl-12 lg:text-left">
                 <div className="lg:pl-12">
-                  <h2 className="font-bold text-2xl md:text-5xl sm:text-3xl text-gray-700 py-4">
+                  <h2 className="font-bold text-4xl text-slate-700 py-4">
                     Diagnósticos para o professor
                   </h2>
                   <p className="text-lg mb-6 pb-2 lg:pb-0">
