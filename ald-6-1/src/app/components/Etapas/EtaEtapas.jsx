@@ -8,31 +8,31 @@ import { motion } from 'framer-motion'
 
 const cardData = [
   {
-    title: "I - Diagnóstico",
+    title: "1 - Diagnóstico",
     description:
       "Traçar o perfil da turma como um todo, destacando suas qualidades e seus potenciais, e identificando dificuldades e limites que devem ser superados.",
   },
   {
-    title: "II - Conteúdos e Habilidades",
+    title: "2 - Conteúdos e Habilidades",
     description:
       "Descrever os principais conteúdos de matemática e habilidades da BNCC a serem trabalhados.",
   },
   {
-    title: "III - Planejamento",
+    title: "3 - Planejamento",
     description:
       "Planejar o PPDA escolhendo estratégias e ferramentas que incitem a participação dos estudantes.",
   },
   {
-    title: "IV - Atividades",
+    title: "4 - Atividades",
     description: "Executar as atividades planejadas.",
   },
   {
-    title: "V - Avaliação",
+    title: "5 - Avaliação",
     description:
       "Avaliar os resultados, verificando até que ponto os objetivos propostos foram alcançados.",
   },
   {
-    title: "VI - Conclusão",
+    title: "6 - Conclusão",
     description:
       "Planejar a Culminância das conquistas ao fim do programa, comunicando os resultados.",
   },

@@ -8,8 +8,8 @@ const FeatureSection = () => {
     <div className="container mt-12 mx-auto md:px-6">
       {/* Section: Design Block */}
       <section className="mb-32 text-center">
-        <h2 className="mb-16 text-4xl font-gray-700 font-bold">
-          O que é o Programa de Educação Financeira da <u className="text-primary-focus">BEĨ Educação</u>
+        <h2 className="mb-16 text-4xl font-slate-700 font-bold">
+          O que é o Programa de Educação Financeira da <span className="text-primary-focus">BEĨ Educação</span>
         </h2>
         <div className="grid gap-x-6 md:grid-cols-3 lg:gap-x-12">
           <div className="mb-4 md:mb-0">

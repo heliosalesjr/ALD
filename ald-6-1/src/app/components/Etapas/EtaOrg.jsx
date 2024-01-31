@@ -6,26 +6,26 @@ const rows = [
   {
     key: "1",
     name: "Site 1",
-    role: "1 e 2",
-    status: "I - Diagnóstico; II - Conteúdos e habilidades",
+    role: "Parte 1 e 2",
+    status: "Diagnóstico - Conteúdos e habilidades",
   },
   {
     key: "2",
     name: "Site 2",
-    role: "3",
-    status: "III - Planejamento; IV - Atividades",
+    role: "Parte 3",
+    status: "Planejamento - Atividades",
   },
   {
     key: "3",
     name: "Site 3",
-    role: "4",
-    status: "V - Avaliação",
+    role: "Parte 4",
+    status: "Avaliação",
   },
   {
     key: "4",
     name: "Site 4",
-    role: "5",
-    status: "VI - Conclusão / Culminância",
+    role: "Parte 5",
+    status: "Conclusão / Culminância",
   },
 ];
 

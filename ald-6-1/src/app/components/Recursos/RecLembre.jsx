@@ -9,9 +9,9 @@ function RecLembre() {
           <div className="mb-6 w-full shrink-0 grow-0 basis-auto px-3 lg:mb-0 lg:w-4/12">
             <h2 className="mb-6 text-4xl font-bold">
             
-            <u className="text-primary dark:text-primary-400">
+            <span className="text-primary dark:text-primary-400">
              E lembre-se:
-              </u>
+              </span>
             
             </h2>
 

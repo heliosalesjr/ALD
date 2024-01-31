@@ -13,7 +13,7 @@ const RecGoogle = () => {
             
             <h2 className="mb-6 text-4xl font-bold text-gray-700 py-8">
               Conhecendo as ferramentas{' '}
-              <u className="text-primary dark:text-primary-400">Google</u>
+              <span className="text-primary dark:text-primary-400">Google</span>
             </h2>
 
             <p className="mb-12 text-neutral-700 dark:text-neutral-300">
