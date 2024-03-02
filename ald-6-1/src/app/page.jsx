@@ -10,13 +10,15 @@ import Divider from "./components/Divider"
 import BaixeLivros from "./components/BaixeLivros"
 import MainButton from "./components/MainButton"
 import MainProposta from "./components/MainProposta"
+import HeroMin from "./components/HeroMin"
 
 
 export default function Home() {
   return (
     <>
       
-      <HeroSection />
+      
+      <HeroMin />
       <SectionOne />
       <Divider />
       <CardList />
