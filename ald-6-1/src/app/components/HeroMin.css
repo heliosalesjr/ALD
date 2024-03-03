@@ -1,0 +1,15 @@
+.radialg {
+    position: relative;
+  }
+  
+  .radialg::after {
+    z-index: 0;
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.5) 1%, rgba(255, 255, 255, 0) 40%);
+    z-index: 1;
+}
