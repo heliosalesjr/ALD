@@ -7,7 +7,7 @@ const VerticalAccordion = () => {
   const [open, setOpen] = useState(1);
 
   return (
-    <section className="p-4 bg-primary">
+    <section className="p-4">
       <div className="flex flex-col lg:flex-row h-fit lg:h-[450px] w-full max-w-6xl mx-auto shadow overflow-hidden">
         <Panel1 open={open} setOpen={setOpen} />
         <Panel2 open={open} setOpen={setOpen} />
@@ -24,6 +24,7 @@ const Panel1 = ({ open, setOpen }) => {
 
   return (
     <>
+        
       <button
         className="bg-white hover:bg-slate-50 transition-colors p-3 border-r-[1px] border-b-[1px] border-slate-200 flex flex-row-reverse lg:flex-col justify-end items-center gap-4 relative group"
         onClick={() => setOpen(1)}
@@ -36,7 +37,7 @@ const Panel1 = ({ open, setOpen }) => {
         >
           Aprendizagem Baseada em Projetos
         </span>
-        <span className="block lg:hidden text-xl font-light">Aprendizagem Baseada em Projetos</span>
+        <span className="block lg:hidden text-xl">Aprendizagem Baseada em Projetos</span>
         <div className="w-6 lg:w-full aspect-square bg-primary text-white grid place-items-center">
           <FiDollarSign />
         </div>
@@ -92,7 +93,7 @@ const Panel2 = ({ open, setOpen }) => {
         >
           Metodologias Ativas
         </span>
-        <span className="block lg:hidden text-xl font-light">Metodologias Ativas</span>
+        <span className="block lg:hidden text-xl">Metodologias Ativas</span>
         <div className="w-6 lg:w-full aspect-square bg-primary text-white grid place-items-center">
           <FiPlay />
         </div>
@@ -121,7 +122,7 @@ const Panel2 = ({ open, setOpen }) => {
               exit="closed"
               className="px-4 py-2 bg-black/40 backdrop-blur-sm text-white"
             >
-              <p>São uma série de técnicas, procedimentos e processos com a finalidade de auxiliar a aprendizagem dos estudantes. São ativas porque pressupõem a realização de atividades práticas que estimulam o protagonismo dos jovens. Por meio das metodologias ativas, são trabalhadas também competências e habilidades especialmente necessárias para o século 21, como o pensamento crítico e criativo e a consciência de que há várias maneiras de realizar uma tarefa ou superar um desafio.</p>
+              <p>São uma série de técnicas, procedimentos e processos com a finalidade de auxiliar a aprendizagem dos estudantes. São ativas porque pressupõem a realização de atividades práticas que estimulam o protagonismo dos jovens. Por meio delas, são trabalhadas competências especialmente necessárias para o século 21, como o pensamento crítico e a consciência de que há várias maneiras de realizar uma tarefa ou superar um desafio.</p>
             </motion.div>
           </motion.div>
         )}
@@ -148,7 +149,7 @@ const Panel3 = ({ open, setOpen }) => {
         >
           Mapa de Conteúdos de Matemática
         </span>
-        <span className="block lg:hidden text-xl font-light">Mapa de Conteúdos de Matemática</span>
+        <span className="block lg:hidden text-xl">Mapa de Conteúdos de Matemática</span>
         <div className="w-6 lg:w-full aspect-square bg-primary text-white grid place-items-center">
           <FiBell />
         </div>
@@ -177,7 +178,14 @@ const Panel3 = ({ open, setOpen }) => {
               exit="closed"
               className="px-4 py-2 bg-black/40 backdrop-blur-sm text-white"
             >
-              <p>Clicando aqui, você pode acessar o mapa que mostra os conteúdos básicos de Matemática previstos na BNCC para o Ensino Básico. Interligamos as partes que apresentam interdependência e destacamos os tópicos que se referem à Educação Financeira. Os conteúdos de anos anteriores devem ser revisitados caso ainda suscitem dúvidas entre os educandos.</p>
+              <p><a
+                    href="https://docs.google.com/spreadsheets/d/1DFJAnY_SmwUOelCjAFSarbtot7P0ehB0BptqqehtM30/edit?usp=sharing"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-white underline hover:text-blue-200"
+                >
+                    Clicando aqui
+                </a>{''}, você pode acessar o mapa que mostra os conteúdos básicos de Matemática previstos na BNCC para o Ensino Básico. Interligamos as partes que apresentam interdependência e destacamos os tópicos que se referem à Educação Financeira. Os conteúdos de anos anteriores devem ser revisitados caso ainda suscitem dúvidas entre os educandos.</p>
             </motion.div>
           </motion.div>
         )}
@@ -204,7 +212,7 @@ const Panel4 = ({ open, setOpen }) => {
         >
           Quadro Geral
         </span>
-        <span className="block lg:hidden text-xl font-light">Quadro Geral</span>
+        <span className="block lg:hidden text-xl">Quadro Geral</span>
         <div className="w-6 lg:w-full aspect-square bg-primary text-white grid place-items-center">
           <FiBarChart />
         </div>
@@ -233,7 +241,18 @@ const Panel4 = ({ open, setOpen }) => {
               exit="closed"
               className="px-4 py-2 bg-black/40 backdrop-blur-sm text-white"
             >
-              <p>Neste quadro, estão organizados os conteúdos de Matemática e Educação Financeira tratados no Livro do Estudante e as competências específicas da BNCC.</p>
+              <p>Neste quadro, estão organizados os conteúdos de Matemática e Educação Financeira tratados no Livro do Estudante e as competências específicas da BNCC.
+              {" "}
+                <a
+                    href="https://docs.google.com/spreadsheets/d/1DFJAnY_SmwUOelCjAFSarbtot7P0ehB0BptqqehtM30/edit?usp=sharing"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-white underline hover:text-blue-200"
+                >
+                    Acesse aqui
+                </a>
+                .
+              </p>
             </motion.div>
           </motion.div>
         )}
