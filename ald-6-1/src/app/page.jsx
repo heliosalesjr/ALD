@@ -11,7 +11,7 @@ import BaixeLivros from "./components/BaixeLivros"
 import MainButton from "./components/MainButton"
 import MainProposta from "./components/MainProposta"
 import HeroMin from "./components/HeroMin"
-
+import PropostaFramer from "./components/PropostaFramer"
 
 export default function Home() {
   return (
@@ -30,6 +30,7 @@ export default function Home() {
       <Divider />
       <BaixeLivros  />
       <MainProposta />
+      <PropostaFramer />
       <Divider />
       <MainButton />
 
