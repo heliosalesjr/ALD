@@ -7,7 +7,7 @@ const VerticalAccordion = () => {
   const [open, setOpen] = useState(1);
 
   return (
-    <section className="p-4">
+    <section className="p-4 bg-slate-100">
       <div className="flex flex-col lg:flex-row h-fit lg:h-[450px] w-full max-w-6xl mx-auto shadow overflow-hidden">
         <Panel1 open={open} setOpen={setOpen} />
         <Panel2 open={open} setOpen={setOpen} />

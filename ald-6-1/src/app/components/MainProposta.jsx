@@ -4,7 +4,7 @@ import {Accordion, AccordionItem} from "@nextui-org/react";
 
 function MainProposta() {
   return (
-    <>
+    <div className='bg-slate-100'>
         <div className="container mx-auto flex items-center justify-center px-4 py-8">
             <div className="">
                 {/* Conteúdo da primeira coluna */}
@@ -15,7 +15,7 @@ function MainProposta() {
         
         
       </div>
-    </>
+    </div>
   )
 }
 
